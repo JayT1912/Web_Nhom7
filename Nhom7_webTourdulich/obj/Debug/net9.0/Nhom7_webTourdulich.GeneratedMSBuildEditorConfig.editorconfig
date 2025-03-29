@@ -17,141 +17,157 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nhom7_webTourdulich
 build_property.RootNamespace = Nhom7_webTourdulich
-build_property.ProjectDir = C:\Users\chith\OneDrive\Máy tính\Web_Nhom7\Nhom7_webTourdulich\
+build_property.ProjectDir = C:\DoAnWEBBBBBB\Nhom7_webTourdulich\Nhom7_webTourdulich\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\chith\OneDrive\Máy tính\Web_Nhom7\Nhom7_webTourdulich
+build_property.MSBuildProjectDirectory = C:\DoAnWEBBBBBB\Nhom7_webTourdulich\Nhom7_webTourdulich
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/About/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Account/AccessDenied.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Account/Login.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Admin/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Destination/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Destination/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Error/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Destination/TourList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25cVG91ckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Home/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Home/Privacy.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/KhachHang/Create.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/KhachHang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Login/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/KhachHang/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/KhachHang/GetHoaDon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEdldEhvYURvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/KhachHang/QRDisplay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXFFSRGlzcGxheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Package/AllReviews.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Package/AllReviews.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxBbGxSZXZpZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Package/Details.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Package/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Package/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Package/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Package/Review.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Package/Review.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxSZXZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Package/Search.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Package/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Register/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Service/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/Error.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/_LayoutAdmin.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/_layoutChungLR.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/_layoutChungLR.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9sYXlvdXRDaHVuZ0xSLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/_LoginPartial.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Team/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Testimonial/index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Testimonial/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/User/Create.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/User/Delete.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/User/Display.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/User/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/User/Index.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/User/Update.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/User/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/_ViewImports.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/_ViewStart.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chith/OneDrive/Máy tính/Web_Nhom7/Nhom7_webTourdulich/Views/Shared/_Layout.cshtml]
+[C:/DoAnWEBBBBBB/Nhom7_webTourdulich/Nhom7_webTourdulich/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-td6bualxhz

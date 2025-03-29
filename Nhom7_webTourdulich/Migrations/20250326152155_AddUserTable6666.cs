@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Nhom7_webTourdulich.Migrations
 {
     /// <inheritdoc />
-    public partial class AddUserTable : Migration
+    public partial class AddUserTable6666 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -354,7 +354,8 @@ namespace Nhom7_webTourdulich.Migrations
                 name: "HoaDon",
                 columns: table => new
                 {
-                    Ma_Hoa_Don = table.Column<string>(type: "varchar(20)", unicode: false, maxLength: 20, nullable: false),
+                    Ma_Hoa_Don = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Ma_Khach_Hang = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ma_Nhom_Tour = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ngay_Lap = table.Column<DateOnly>(type: "date", nullable: false),
@@ -385,7 +386,7 @@ namespace Nhom7_webTourdulich.Migrations
                 name: "ChiTietHoaDon",
                 columns: table => new
                 {
-                    Ma_Hoa_Don = table.Column<string>(type: "varchar(20)", unicode: false, maxLength: 20, nullable: false),
+                    Ma_Hoa_Don = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ma_Khach_Hang = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Gia_Tour = table.Column<decimal>(type: "money", nullable: false),
                     So_Luong = table.Column<int>(type: "int", nullable: false, defaultValue: 1),

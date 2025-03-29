@@ -1,0 +1,130 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int initialRowCount = ViewBag.InitialRowCount; // Initial row count from Controller
+    int khachHangId = ViewBag.KhachHangId; // Customer ID from Controller
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quét Mã QR</title>
+    <link rel="stylesheet" href="~/css/qr-payment.css"> <!-- Unique CSS file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/main.js"></script>
+</head>
+
+<div class="qr-container text-center py-5">
+    <!-- Section Header -->
+    <h1 class="qr-title text-primary mb-4">Quét Mã QR</h1>
+    <p class="qr-description text-muted mb-4">Hãy quét mã QR bên dưới để thực hiện thanh toán:</p>
+
+    <!-- QR Code Display -->
+    @if (ViewBag.QRCodeImage != null)
+    {
+        <div class="qr-code-wrapper mb-4">
+            <img src="@ViewBag.QRCodeImage" alt="QR Code" class="qr-code img-fluid" />
+        </div>
+    }
+    else
+    {
+        <p class="qr-error text-danger">Không thể hiển thị mã QR. Vui lòng thử lại.</p>
+    }
+
+    <!-- Payment Button -->
+    <button id="paymentButton" disabled class="qr-btn btn btn-primary btn-lg mt-3" onclick="redirectToInvoice()">Đã Thanh Toán</button>
+    <input type="hidden" id="khachHangId" value="@khachHangId" />
+</div>
+
+<script>
+    let initialRowCount = @initialRowCount;
+
+    async function checkForNewRow() {
+        try {
+            const response = await fetch('/KhachHang/GetRowCount');
+            const data = await response.json();
+            if (data.rowCount > initialRowCount) {
+                document.getElementById("paymentButton").disabled = false;
+                document.getElementById("paymentButton").textContent = "Xem Hóa Đơn";
+            }
+        } catch (error) {
+            console.error("Lỗi khi kiểm tra số dòng:", error);
+        }
+    }
+
+    function redirectToInvoice() {
+        const khachHangId = document.getElementById("khachHangId").value;
+        window.location.href = `/KhachHang/GetHoaDon?khachHangId=${khachHangId}`;
+    }
+
+    setInterval(checkForNewRow, 2000); // Check every 2 seconds
+</script>
+<style>
+    /* Unique Container Styling */
+.qr-container {
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Section Header */
+.qr-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff; /* Primary blue color */
+}
+
+.qr-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6c757d; /* Muted description text */
+}
+
+.qr-error {
+    font-size: 16px;
+    color: #dc3545; /* Red error text */
+}
+
+/* QR Code Wrapper */
+.qr-code-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    max-width: 200px; /* QR code size */
+    height: auto;
+}
+
+/* Buttons */
+.qr-btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff; /* White text */
+    background-color: #007bff; /* Primary blue */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.qr-btn:disabled {
+    background-color: #ccc; /* Disabled gray */
+    cursor: not-allowed;
+}
+
+.qr-btn:hover:not(:disabled) {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+    
+</style>

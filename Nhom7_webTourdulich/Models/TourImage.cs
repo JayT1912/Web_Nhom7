@@ -13,7 +13,7 @@ namespace Nhom7_webTourdulich.Models
     public int MaTour { get; set; } // Khóa ngoại tới bảng Tour
     public string HinhAnh { get; set; } = null!; // Đường dẫn hình ảnh
 
-    public virtual Tour Tour { get; set; } = null!;
+    public virtual Tour? Tour { get; set; } = null!;
 }
 
 }
