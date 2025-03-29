@@ -3444,6 +3444,15 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
         }
       },
+      "QRCoder/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/QRCoder.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/QRCoder.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -10127,6 +10136,27 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "QRCoder/1.6.0": {
+      "sha512": "XmPA81eo+oRxBuyVdswsSkTGTE1d3thfF11Z1PdD7oB56A6HU4G4AAOdySmGRMb/cljwlFTMWUtosGEnwpS6GA==",
+      "type": "package",
+      "path": "qrcoder/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/QRCoder.dll",
+        "lib/net40/QRCoder.dll",
+        "lib/net5.0-windows7.0/QRCoder.dll",
+        "lib/net5.0/QRCoder.dll",
+        "lib/net6.0-windows7.0/QRCoder.dll",
+        "lib/net6.0/QRCoder.dll",
+        "lib/netstandard1.3/QRCoder.dll",
+        "lib/netstandard2.0/QRCoder.dll",
+        "nuget-icon.png",
+        "nuget-readme.md",
+        "qrcoder.1.6.0.nupkg.sha512",
+        "qrcoder.nuspec"
+      ]
+    },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
       "type": "package",
@@ -14538,27 +14568,28 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.3",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 9.0.0",
+      "QRCoder >= 1.6.0",
       "SendGrid >= 9.29.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chith\\.nuget\\packages\\": {},
+    "C:\\Users\\KIET\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+      "projectUniqueName": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
       "projectName": "Nhom7_webTourdulich",
-      "projectPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
-      "packagesPath": "C:\\Users\\chith\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\obj\\",
+      "projectPath": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+      "packagesPath": "C:\\Users\\KIET\\.nuget\\packages\\",
+      "outputPath": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KIET\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -14585,7 +14616,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -14651,6 +14682,10 @@
             "target": "Package",
             "version": "[9.0.0, )"
           },
+          "QRCoder": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          },
           "SendGrid": {
             "target": "Package",
             "version": "[9.29.3, )"
@@ -14675,7 +14710,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

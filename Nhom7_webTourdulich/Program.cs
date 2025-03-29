@@ -8,7 +8,12 @@ using Nhom7_webTourdulich.Repositories;
 using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+        options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    });
 // Register IUserRepository with EFUserRepository
 builder.Services.AddScoped<IUserRepository, EFUserRepository>();
 builder.Services.AddSession(options =>

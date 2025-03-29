@@ -3,7 +3,17 @@
 @{
     ViewData["Title"] = "Đánh giá Tour";
 }
-
+<head>
+<link rel="stylesheet" href="~/css/style.css"> <!-- Use the correct path -->
+<script src="~/js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/main.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quét Mã QR</title>
+</head>
 <h2 class="text-center text-primary mb-4 fw-bold">Đánh giá Tour: @ViewBag.TourName</h2>
 
 <form asp-action="Review" method="post" class="p-5 shadow-lg rounded bg-white border">

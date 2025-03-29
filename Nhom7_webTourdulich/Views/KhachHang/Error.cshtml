@@ -1,0 +1,39 @@
+@{
+    ViewBag.Title = "Lỗi hệ thống";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lỗi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff3f3;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .error-message {
+            color: #d9534f;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="error-message">Đã xảy ra lỗi</h1>
+        <p>@ViewBag.ErrorMessage</p>
+    </div>
+</body>
+</html>
