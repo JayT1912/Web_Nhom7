@@ -21,6 +21,7 @@ namespace Nhom7_webTourdulich.Models
          public string SoNgay { get; set; }
          public string? SoLuongNguoi { get; set; }
          public string? MoTa { get; set; }
+        public string? ImageUrl { get; set; }
 
          // Quan hệ với DiemDen
          public virtual DiemDen? MaDiemDenNavigation { get; set; } = null!;

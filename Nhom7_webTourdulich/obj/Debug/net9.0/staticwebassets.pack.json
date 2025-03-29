@@ -1,1071 +1,1087 @@
 {
   "Files": [
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Nhom7_webTourdulich.bundle.scp.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Nhom7_webTourdulich.bundle.scp.css",
       "PackagePath": "staticwebassets\\Nhom7_webTourdulich.q5687kv8vs.bundle.scp.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Admin\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\bootstrap.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\flexslider.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\flexslider.css",
       "PackagePath": "staticwebassets\\Admin\\css\\flexslider.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\font-style.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\font-style.css",
       "PackagePath": "staticwebassets\\Admin\\css\\font-style.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\fullcalendar.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\fullcalendar.css",
       "PackagePath": "staticwebassets\\Admin\\css\\fullcalendar.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\fullcalendar.print.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\fullcalendar.print.css",
       "PackagePath": "staticwebassets\\Admin\\css\\fullcalendar.print.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\login.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\login.css",
       "PackagePath": "staticwebassets\\Admin\\css\\login.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\main.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\main.css",
       "PackagePath": "staticwebassets\\Admin\\css\\main.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\register.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\register.css",
       "PackagePath": "staticwebassets\\Admin\\css\\register.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\table.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\css\\table.css",
       "PackagePath": "staticwebassets\\Admin\\css\\table.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\css\\font-awesome.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\core.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\core.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\core.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\fixed-width.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\font-awesome.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\icons.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\icons.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\icons.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\larger.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\larger.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\larger.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\list.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\list.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\list.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\mixins.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\mixins.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\mixins.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\path.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\path.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\path.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\spinning.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\spinning.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\spinning.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\stacked.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\stacked.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\stacked.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\variables.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\less\\variables.less",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\less\\variables.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_core.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_icons.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_larger.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_list.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_path.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_spinning.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_spinning.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_spinning.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_variables.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\font-awesome\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\Admin\\font-awesome\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\bg.JPG",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\bg.JPG",
       "PackagePath": "staticwebassets\\Admin\\images\\bg.JPG"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\down-small.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\down-small.png",
       "PackagePath": "staticwebassets\\Admin\\images\\down-small.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\down.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\down.png",
       "PackagePath": "staticwebassets\\Admin\\images\\down.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\face.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face36x36.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face36x36.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\face36x36.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face80x80.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\face80x80.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\face80x80.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\glyphicons-halflings-white.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\glyphicons-halflings-white.png",
       "PackagePath": "staticwebassets\\Admin\\images\\glyphicons-halflings-white.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\glyphicons-halflings.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\glyphicons-halflings.png",
       "PackagePath": "staticwebassets\\Admin\\images\\glyphicons-halflings.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\logo.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\logo.png",
       "PackagePath": "staticwebassets\\Admin\\images\\logo.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\logo30.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\logo30.png",
       "PackagePath": "staticwebassets\\Admin\\images\\logo30.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo01.jpeg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo01.jpeg",
       "PackagePath": "staticwebassets\\Admin\\images\\photo01.jpeg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo02.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo02.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\photo02.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo03.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo03.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\photo03.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo04.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\photo04.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\photo04.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\sep-half.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\sep-half.png",
       "PackagePath": "staticwebassets\\Admin\\images\\sep-half.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\slide01.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\slide01.png",
       "PackagePath": "staticwebassets\\Admin\\images\\slide01.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\slide02.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\slide02.png",
       "PackagePath": "staticwebassets\\Admin\\images\\slide02.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\up-small.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\up-small.png",
       "PackagePath": "staticwebassets\\Admin\\images\\up-small.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\up.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\up.png",
       "PackagePath": "staticwebassets\\Admin\\images\\up.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\user-avatar.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\images\\user-avatar.jpg",
       "PackagePath": "staticwebassets\\Admin\\images\\user-avatar.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\admin.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\admin.js",
       "PackagePath": "staticwebassets\\Admin\\js\\admin.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\bootstrap.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Admin\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\dash-charts.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\dash-charts.js",
       "PackagePath": "staticwebassets\\Admin\\js\\dash-charts.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\dash-noty.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\dash-noty.js",
       "PackagePath": "staticwebassets\\Admin\\js\\dash-noty.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\datatables\\jquery.dataTables.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\datatables\\jquery.dataTables.js",
       "PackagePath": "staticwebassets\\Admin\\js\\datatables\\jquery.dataTables.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\datatables\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\datatables\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\datatables\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\fullcalendar.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\fullcalendar.js",
       "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\fullcalendar.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\fullcalendar.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\fullcalendar.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\gauge.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\gauge.js",
       "PackagePath": "staticwebassets\\Admin\\js\\gauge.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\gcal.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\gcal.js",
       "PackagePath": "staticwebassets\\Admin\\js\\gcal.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\highcharts.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\highcharts.js",
       "PackagePath": "staticwebassets\\Admin\\js\\highcharts.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery-ui-1.8.23.custom.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery-ui-1.8.23.custom.min.js",
       "PackagePath": "staticwebassets\\Admin\\js\\jquery-ui-1.8.23.custom.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.flexslider.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.flexslider.js",
       "PackagePath": "staticwebassets\\Admin\\js\\jquery.flexslider.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.js",
       "PackagePath": "staticwebassets\\Admin\\js\\jquery.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.validate.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\jquery.validate.js",
       "PackagePath": "staticwebassets\\Admin\\js\\jquery.validate.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\lineandbars.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\lineandbars.js",
       "PackagePath": "staticwebassets\\Admin\\js\\lineandbars.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\jquery.noty.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\jquery.noty.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\jquery.noty.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottom.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottom.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\bottom.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomCenter.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomCenter.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\bottomCenter.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomLeft.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomLeft.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\bottomLeft.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomRight.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\bottomRight.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\bottomRight.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\center.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\center.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\center.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\centerLeft.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\centerLeft.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\centerLeft.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\centerRight.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\centerRight.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\centerRight.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\inline.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\inline.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\inline.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\top.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\top.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\top.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topCenter.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topCenter.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\topCenter.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topLeft.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topLeft.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\topLeft.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topRight.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\layouts\\topRight.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\layouts\\topRight.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\promise.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\promise.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\promise.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\themes\\default.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Admin\\js\\noty\\themes\\default.js",
       "PackagePath": "staticwebassets\\Admin\\js\\noty\\themes\\default.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\css\\main.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\css\\main.css",
       "PackagePath": "staticwebassets\\Template\\css\\main.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\css\\util.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\css\\util.css",
       "PackagePath": "staticwebassets\\Template\\css\\util.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\animated.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\animated.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\core.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\core.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\icons.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\icons.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\larger.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\larger.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\list.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\list.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\path.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\path.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\less\\variables.less",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\less\\variables.less"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
       "PackagePath": "staticwebassets\\Template\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\css\\material-design-iconic-font.css",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\css\\material-design-iconic-font.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
       "PackagePath": "staticwebassets\\Template\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Black.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Black.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Black.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-BlackItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Bold.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Bold.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Bold.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-BoldItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraBold.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraLight.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Italic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Italic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Italic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Light.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Light.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Light.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-LightItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-LightItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-LightItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Medium.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Medium.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Medium.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-MediumItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Regular.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Regular.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Regular.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-SemiBold.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-SemiBold.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Thin.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-Thin.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-Thin.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ThinItalic.ttf",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\fonts\\poppins\\Poppins-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\Template\\fonts\\poppins\\Poppins-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\images\\bg-01.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\images\\bg-01.jpg",
       "PackagePath": "staticwebassets\\Template\\images\\bg-01.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\images\\icons\\favicon.ico",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\images\\icons\\favicon.ico",
       "PackagePath": "staticwebassets\\Template\\images\\icons\\favicon.ico"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\js\\main.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\js\\main.js",
       "PackagePath": "staticwebassets\\Template\\js\\main.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animate\\animate.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animate\\animate.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\animate\\animate.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\css\\animsition.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\css\\animsition.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\animsition\\css\\animsition.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\css\\animsition.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\css\\animsition.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\animsition\\css\\animsition.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\js\\animsition.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\js\\animsition.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\animsition\\js\\animsition.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\js\\animsition.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\animsition\\js\\animsition.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\animsition\\js\\animsition.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\bootstrap.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\popper.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\popper.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\js\\popper.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\popper.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\popper.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\js\\popper.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\tooltip.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\bootstrap\\js\\tooltip.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\bootstrap\\js\\tooltip.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\countdowntime\\countdowntime.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\countdowntime\\countdowntime.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\countdowntime\\countdowntime.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\css-hamburgers\\hamburgers.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\css-hamburgers\\hamburgers.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\css-hamburgers\\hamburgers.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\css-hamburgers\\hamburgers.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\css-hamburgers\\hamburgers.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\daterangepicker.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\daterangepicker.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\daterangepicker\\daterangepicker.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\daterangepicker.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\daterangepicker.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\daterangepicker\\daterangepicker.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\moment.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\moment.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\daterangepicker\\moment.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\moment.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\daterangepicker\\moment.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\daterangepicker\\moment.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\jquery\\jquery-3.2.1.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\jquery\\jquery-3.2.1.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\select2\\select2.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\select2\\select2.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.min.css",
       "PackagePath": "staticwebassets\\Template\\vendor\\select2\\select2.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\Template\\vendor\\select2\\select2.min.js",
       "PackagePath": "staticwebassets\\Template\\vendor\\select2\\select2.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\css\\Admin.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\css\\Admin.css",
       "PackagePath": "staticwebassets\\css\\Admin.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\css\\dataTables.bootstrap5.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\css\\dataTables.bootstrap5.min.css",
       "PackagePath": "staticwebassets\\css\\dataTables.bootstrap5.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\images\\123.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\123.jpg",
       "PackagePath": "staticwebassets\\images\\123.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\images\\AVT.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\AVT.jpg",
       "PackagePath": "staticwebassets\\images\\AVT.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\images\\OIP.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\FFVU1802.JPG",
+      "PackagePath": "staticwebassets\\images\\FFVU1802.JPG"
+    },
+    {
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\OIP.jpg",
       "PackagePath": "staticwebassets\\images\\OIP.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\images\\user-2.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\RKVD8456.JPG",
+      "PackagePath": "staticwebassets\\images\\RKVD8456.JPG"
+    },
+    {
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\Screenshot 2025-02-14 101638.jpg",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-02-14 101638.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\Screenshot 2025-02-14 175036.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2025-02-14 175036.png"
+    },
+    {
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\anhtrangchu.jpg",
+      "PackagePath": "staticwebassets\\images\\anhtrangchu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\user-2.png",
       "PackagePath": "staticwebassets\\images\\user-2.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\images\\user-3.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\images\\user-3.png",
       "PackagePath": "staticwebassets\\images\\user-3.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\about.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\about.jpg",
       "PackagePath": "staticwebassets\\img\\about.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\anhtrangchu.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\anhtrangchu.jpg",
       "PackagePath": "staticwebassets\\img\\anhtrangchu.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\bg-hero.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\bg-hero.jpg",
       "PackagePath": "staticwebassets\\img\\bg-hero.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\booking.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\booking.jpg",
       "PackagePath": "staticwebassets\\img\\booking.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\dalat.jpg",
-      "PackagePath": "staticwebassets\\img\\dalat.jpg"
-    },
-    {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\destination-1.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\destination-1.jpg",
       "PackagePath": "staticwebassets\\img\\destination-1.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\destination-2.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\destination-2.jpg",
       "PackagePath": "staticwebassets\\img\\destination-2.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\destination-3.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\destination-3.jpg",
       "PackagePath": "staticwebassets\\img\\destination-3.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\destination-4.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\destination-4.jpg",
       "PackagePath": "staticwebassets\\img\\destination-4.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\icon_User.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\icon_User.jpg",
       "PackagePath": "staticwebassets\\img\\icon_User.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\package-1.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\package-1.jpg",
       "PackagePath": "staticwebassets\\img\\package-1.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\package-2.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\package-2.jpg",
       "PackagePath": "staticwebassets\\img\\package-2.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\package-3.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\package-3.jpg",
       "PackagePath": "staticwebassets\\img\\package-3.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\team-1.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\img\\team-1.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\team-2.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\img\\team-2.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\team-3.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\img\\team-3.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\team-4.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-3.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-3.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-4.jpg",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\js\\jquery-3.6.0.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\js\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\js\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\js\\main.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\animate\\animate.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\animate\\animate.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\animate\\animate.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\animate\\animate.min.css",
       "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\vi.json",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\vi.json",
       "PackagePath": "staticwebassets\\lib\\vi.json"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\wow\\wow.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\wow\\wow.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
     },
     {
-      "Id": "C:\\DoAnWEBBBBBB\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\wwwroot\\lib\\wow\\wow.min.js",
+      "Id": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\wwwroot\\lib\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
     },
     {

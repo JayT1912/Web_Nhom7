@@ -33,7 +33,6 @@ public partial class QuanLyTourContext : DbContext
     
     public virtual DbSet<DanhGia>  DanhGias { get; set; }
 
-
     public virtual DbSet<NhanVien> NhanViens { get; set; }
 
     public virtual DbSet<NhomTour> NhomTours { get; set; }
@@ -41,6 +40,8 @@ public partial class QuanLyTourContext : DbContext
     public virtual DbSet<PhuongTien> PhuongTiens { get; set; }
 
     public virtual DbSet<Tour> Tours { get; set; }
+    
+    public virtual DbSet<TourImage> TourImages { get; set; }
 
     public virtual DbSet<TrangThai> TrangThais { get; set; }
 
@@ -49,7 +50,6 @@ public partial class QuanLyTourContext : DbContext
     public virtual DbSet<UserImage> UserImages {get; set;}
 
     public virtual DbSet<User> Users {get; set;}
-     public DbSet<TourImage> TourImages { get; set; }
 
     public virtual DbSet<Login> Logins { get; set; }
 
@@ -58,8 +58,6 @@ public partial class QuanLyTourContext : DbContext
     {
     // Map entity Tour đến bảng "tour"
     modelBuilder.Entity<Tour>().ToTable("tour");
-    modelBuilder.Entity<TourImage>().ToTable("Tour_Images");
-
         modelBuilder.Entity<ChiTietHoaDon>(entity =>
         {
             entity.HasKey(e => new { e.MaHoaDon, e.MaKhachHang }).HasName("PK__ChiTietH__A294B5FBC6D9C49E");
@@ -92,8 +90,9 @@ public partial class QuanLyTourContext : DbContext
             entity.HasOne(d => d.MaHoaDonNavigation).WithMany(p => p.ChiTietHoaDons)
                 .HasForeignKey(d => d.MaHoaDon)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietHo__Ma_Ho__151B244E");
+                .HasConstraintName("FK__ChiTietHo__Ma_Ho__151B244E")
 
+                .HasConstraintName("FK__ChiTietHo__Ma_Ho__5629CD9C");
 
            
         });

@@ -26,9 +26,9 @@ public partial class NhomTour
  
     public string? NoiDung { get; set; }
 
-    public virtual ICollection<HoaDon>? HoaDons { get; set; } = new List<HoaDon>();
+    public virtual ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();
 
-    public virtual Tour? MaTourNavigation { get; set; } = null!;
+    public virtual Tour MaTourNavigation { get; set; } = null!;
 
-    public virtual TrangThai? MaTrangThaiNavigation { get; set; } = null!;
+    public virtual TrangThai MaTrangThaiNavigation { get; set; } = null!;
 }

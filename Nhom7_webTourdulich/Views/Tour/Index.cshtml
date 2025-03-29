@@ -1,0 +1,50 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.Tour>
+
+@{
+    ViewData["Title"] = "Tour List";
+        Layout = "_LayoutAdmin"; 
+
+}
+
+
+<body>
+<main>
+<h1>Tour List</h1>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Create", "Tour")">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Ten)</th>
+            <th>@Html.DisplayNameFor(model => model.MaLoaiTourNavigation.TenLoaiTour)</th>
+            <th>@Html.DisplayNameFor(model => model.MaGiaTourNavigation.Gia)</th>
+            <th>@Html.DisplayNameFor(model => model.MaDiemDenNavigation.Ten)</th>  <!-- Dùng Ten thay vì TenDiemDen -->
+            <th>@Html.DisplayNameFor(model => model.SoNgay)</th>
+            <th>@Html.DisplayNameFor(model => model.SoLuongNguoi)</th>
+            <th>@Html.DisplayNameFor(model => model.MoTa)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tour in Model)
+        {
+            <tr>
+                <td>@tour.Ten</td>
+                <td>@tour.MaLoaiTourNavigation?.TenLoaiTour</td>  <!-- Using null-conditional operator -->
+                <td>@tour.MaGiaTourNavigation?.Gia</td>
+                <td>@tour.MaDiemDenNavigation?.Ten</td>  <!-- Dùng Ten thay vì TenDiemDen -->
+                <td>@tour.SoNgay</td>
+                <td>@tour.SoLuongNguoi</td>
+                <td>@tour.MoTa</td>
+                <td>
+                    <a class="btn btn-warning" href="@Url.Action("Edit", "Tour", new { id = tour.MaTour })">Sửa</a> |
+                    <a class="btn btn-danger" href="@Url.Action("Delete", "Tour", new { id = tour.MaTour })">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</body>
+</main>
