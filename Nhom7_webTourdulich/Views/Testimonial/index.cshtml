@@ -1,0 +1,46 @@
+    @* @model IEnumerable<Nhom7_webTourdulich.Models.DanhGia>
+
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Clients Say!!!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                @foreach (var item in Model)
+                {
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
+                            src="@item.KhachHang?.HinhAnh" 
+                            alt="Client Image" 
+                            style="width: 80px; height: 80px;">
+                        <h5 class="mb-0">@item.KhachHang?.Ten</h5>
+                        <p>@item.NgayDanhGia.ToString("dd/MM/yyyy")</p>
+                        <p class="mb-0">@item.NoiDung </p>
+                    </div>
+                }
+            </div>
+
+            <!-- Progress style navigation buttons -->
+            <div class="d-flex justify-content-center mt-4">
+                <button class="btn btn-primary mx-2" id="prevBtn"><i class="bi bi-arrow-left"></i> Previous</button>
+                <div class="progress-indicator d-flex align-items-center">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="btn btn-primary mx-2" id="nextBtn">Next <i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('prevBtn').addEventListener('click', function() {
+            $('.testimonial-carousel').trigger('prev.owl.carousel');
+            // Update active progress dot logic
+        });
+        document.getElementById('nextBtn').addEventListener('click', function() {
+            $('.testimonial-carousel').trigger('next.owl.carousel');
+            // Update active progress dot logic
+        });
+    </script> *@

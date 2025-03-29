@@ -1,0 +1,165 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.Tour>
+@using Microsoft.AspNetCore.Html
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- Tiêu đề và từ khóa tìm kiếm -->
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Gói Tour</h6>
+            <h1 class="mb-3">Khám Phá Thế Giới Cùng Chúng Tôi</h1>
+            @if (!string.IsNullOrEmpty(ViewBag.Query))
+            {
+                <p class="text-muted">Kết quả tìm kiếm cho từ khóa: "<strong>@ViewBag.Query</strong>"</p>
+            }
+        </div>
+
+        <!-- Danh sách Tour -->
+        <div class="row g-4 justify-content-center">
+            @if (Model.Any())
+            {
+                @foreach (var tour in Model)
+                {
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="package-item shadow-sm border tour-card">
+                            <!-- Hình ảnh -->
+                            <img src="@tour.TourImages?.FirstOrDefault()?.HinhAnh ?? "/images/default-image.jpg"" class="img-fluid w-100" alt="@tour.Ten" style="height: 200px; object-fit: cover;">
+                            
+                            <!-- Nội dung -->
+                            <div class="text-center p-4">
+                                <h5 class="mb-2 text-primary">@tour.Ten</h5>
+                                <h3 class="mb-2 text-success">@tour.MaGiaTourNavigation.Gia.ToString("C")</h3>
+                                <p class="text-warning">
+                                    @if (tour.DanhGias != null && tour.DanhGias.Any())
+                                    {
+                                        var averageRating = tour.DanhGias.Average(d => d.SoSao);
+                                        @GenerateStars(averageRating)
+                                        <span> (@averageRating.ToString("0.0"))</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Chưa có đánh giá</span>
+                                    }
+                                </p>
+                                <p>
+                                    @if (!string.IsNullOrEmpty(tour.MoTa) && tour.MoTa.Length > 50)
+                                    {
+                                        @string.Concat(tour.MoTa.Substring(0, 50), "...")
+                                    }
+                                    else
+                                    {
+                                        @tour.MoTa
+                                    }
+                                </p>
+                                <!-- Nút hành động -->
+                                <div class="d-flex justify-content-center">
+                                    <a href="@Url.Action("Details", "Package", new { id = tour.MaTour })" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Chi tiết</a>
+                                    <a href="@Url.Action("Create", "KhachHang")" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Đặt ngay</a>
+                                </div>
+                                <div class="mt-3 text-center">
+                                    <a href="@Url.Action("Review", "Package", new { id = tour.MaTour })" class="btn btn-outline-primary">Đánh giá ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12 text-center">
+                    <p class="text-muted">Không có tour nào phù hợp với từ khóa "<strong>@ViewBag.Query</strong>".</p>
+                </div>
+            }
+        </div>
+
+        <!-- Phân trang -->
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                @if (ViewBag.CurrentPage > 1)
+                {
+                    <li class="page-item">
+                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage - 1 })">Trước</a>
+                    </li>
+                }
+
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = i })">@i</a>
+                    </li>
+                }
+
+                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                {
+                    <li class="page-item">
+                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage + 1 })">Sau</a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- Tùy chỉnh CSS -->
+<style>
+    /* Ngôi sao đánh giá */
+    .fa-star, .fa-star-half-o, .fa-star-o {
+        font-size: 18px;
+        color: gold;
+        margin-right: 2px;
+    }
+
+    /* Hiệu ứng hover trên hình ảnh */
+    .tour-card img:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+
+    /* Hiệu ứng hover trên card */
+    .tour-card:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Tùy chỉnh nút phân trang */
+    .btn-custom {
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn-custom:hover {
+        background-color: #007bff !important;
+        color: #fff !important;
+        transform: scale(1.1);
+    }
+
+    /* Trạng thái nút active */
+    .page-item.active .page-link {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+    }
+</style>
+
+@functions {
+    public IHtmlContent GenerateStars(double rating)
+    {
+        // Tính số sao đầy, sao nửa & sao trống
+        int fullStars = (int)Math.Floor(rating);
+        int halfStar = (rating - fullStars) >= 0.5 ? 1 : 0;
+        int emptyStars = 5 - fullStars - halfStar;
+        var html = "";
+        for (int i = 0; i < fullStars; i++)
+        {
+            html += "<i class='fa fa-star'></i>";
+        }
+        if (halfStar == 1)
+        {
+            html += "<i class='fa fa-star-half-o'></i>";
+        }
+        for (int i = 0; i < emptyStars; i++)
+        {
+            html += "<i class='fa fa-star-o'></i>";
+        }
+        return new HtmlString(html);
+    }
+}

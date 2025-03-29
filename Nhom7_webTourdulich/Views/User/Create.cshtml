@@ -1,0 +1,95 @@
+﻿@model Nhom7_webTourdulich.Models.User
+
+@{
+    ViewData["Title"] = "Thêm người dùng";
+    Layout = "_LayoutAdmin";  // Dùng layout admin nếu có, nếu không, có thể bỏ dòng này.
+}
+
+
+<body>
+<main>
+    <h1>Thêm Người Dùng</h1>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="FullName"></label>
+            <input asp-for="FullName" class="form-control" />
+            <span asp-validation-for="FullName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Username"></label>
+            <input asp-for="Username" class="form-control" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Password"></label>
+            <input type="password" asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Role">Vai trò</label>
+            <select asp-for="Role" class="form-control">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+                <option value="Manage">Manage</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DateOfBirth">Ngày sinh</label>
+            <input asp-for="DateOfBirth" class="form-control" type="date" />
+            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Address">Địa chỉ</label>
+            <input asp-for="Address" class="form-control" />
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PhoneNumber">Số điện thoại</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CreatedAt">Ngày tạo tài khoản</label>
+            <input asp-for="CreatedAt" class="form-control" type="date" />
+            <span asp-validation-for="CreatedAt" class="text-danger"></span>
+        </div>
+
+        <!-- Upload hình ảnh -->
+        <div class="form-group">
+            <label for="avatar">Ảnh đại diện</label>
+            <input type="file" name="Avatar" class="form-control" accept="image/*" onchange="previewImage(event)" />
+            <img id="avatarPreview" src="#" alt="Ảnh đại diện" style="display:none; margin-top:10px; max-width:200px;" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Thêm</button>
+    </form>
+
+    @section Scripts {
+        <script type="text/javascript">
+            function previewImage(event) {
+                var reader = new FileReader();
+                reader.onload = function () {
+                    var output = document.getElementById('avatarPreview');
+                    output.src = reader.result;
+                    output.style.display = 'block';
+                };
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        </script>
+    }
+    </main>
+</body>

@@ -1,0 +1,99 @@
+﻿@model Nhom7_webTourdulich.Models.User
+@{
+    Layout = "_LayoutAdmin";  // Dùng layout admin nếu có, nếu không, có thể bỏ dòng này.
+}
+
+
+<Body>
+    <main>
+@{
+    ViewData["Title"] = "Chỉnh sửa Người Dùng";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Update" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName"  class="form-control" placeholder="Nhập họ và tên" />
+        <span asp-validation-for="FullName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email"  class="form-control" placeholder="Nhập tên Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+<div class="form-group">
+    <label asp-for="Username">Username:</label>
+    <input asp-for="Username" class="form-control" placeholder="Nhập tên tài khoản" />
+    <span asp-validation-for="Username" class="text-danger"></span>
+</div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input type="password" asp-for="Password" class="form-control" placeholder="Nhập mật khẩu mới nếu muốn thay đổi" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role">Vai trò</label>
+        <select asp-for="Role" class="form-control">
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+            <option value="Manage">Manage</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DateOfBirth">Ngày sinh</label>
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Address">Địa chỉ</label>
+        <input asp-for="Address"  class="form-control" placeholder="Nhập địa chỉ" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PhoneNumber">Số điện thoại</label>
+        <input asp-for="PhoneNumber"  class="form-control" placeholder="Nhập số điện thoại" />
+        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CreatedAt">Ngày tạo tài khoản</label>
+        <input asp-for="CreatedAt" class="form-control" type="date" />
+        <span asp-validation-for="CreatedAt" class="text-danger"></span>
+    </div>
+
+    <!-- Hiển thị ảnh hiện tại -->
+    <div class="form-group">
+        <label>Ảnh đại diện hiện tại:</label><br>
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Avatar" style="width: 150px; height: auto;" />
+        }
+        else
+        {
+            <p>Chưa có ảnh</p>
+        }
+    </div>
+
+    <!-- Upload ảnh mới -->
+    <div class="form-group">
+        <label for="avatar">Chọn ảnh đại diện mới (nếu muốn thay đổi):</label>
+        <input type="file" name="avatar" class="form-control" accept="image/*" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Cập nhật" class="btn btn-primary" />
+    </div>
+</form>
+</Body>
+    </main>

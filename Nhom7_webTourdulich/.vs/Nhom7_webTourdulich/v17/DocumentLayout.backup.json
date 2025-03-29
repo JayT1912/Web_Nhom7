@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|m:\\nhom7_webtourdulich\\nhom7_webtourdulich\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|m:\\nhom7_webtourdulich\\nhom7_webtourdulich\\nhom7_webtourdulich.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|solutionrelative:nhom7_webtourdulich.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|m:\\nhom7_webtourdulich\\nhom7_webtourdulich\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|m:\\nhom7_webtourdulich\\nhom7_webtourdulich\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEE56DB1-E2CC-EFAA-14FB-0D6007BFBF96}|Nhom7_webTourdulich.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGQAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T13:37:25.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T13:37:15.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T13:37:00.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T13:36:51.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-19T13:36:42.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nhom7_webTourdulich.csproj",
+              "DocumentMoniker": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+              "RelativeDocumentMoniker": "Nhom7_webTourdulich.csproj",
+              "ToolTip": "M:\\Nhom7_webTourdulich\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+              "RelativeToolTip": "Nhom7_webTourdulich.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-19T13:34:48.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

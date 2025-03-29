@@ -1,0 +1,189 @@
+@model Nhom7_webTourdulich.Models.Tour
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+<div class="container py-5">
+  <div class="mb-4 p-4 border rounded bg-light shadow-sm">
+    <h4 class="text-primary fw-bold mb-3 border-bottom pb-2">Thông tin chi tiết</h4>
+    <div class="row">
+        <!-- Điểm đến -->
+        <div class="col-6 mb-3">
+            <span class="fw-bold text-muted">Điểm đến:</span>
+            <span class="text-dark">@Model.MaDiemDenNavigation.Ten</span>
+        </div>
+        <!-- Loại Tour -->
+        <div class="col-6 mb-3">
+            <span class="fw-bold text-muted">Loại tour:</span>
+            <span class="text-dark">@Model.MaLoaiTourNavigation.TenLoaiTour</span>
+        </div>
+        <!-- Giá -->
+        <div class="col-6 mb-3">
+            <span class="fw-bold text-muted">Giá:</span>
+            <span class="text-success">@Model.MaGiaTourNavigation.Gia.ToString("C")</span>
+        </div>
+        <!-- Số ngày -->
+        <div class="col-6 mb-3">
+            <span class="fw-bold text-muted">Số ngày:</span>
+            <span class="text-dark">@Model.SoNgay ngày</span>
+        </div>
+        <!-- Số lượng người -->
+        <div class="col-6 mb-3">
+            <span class="fw-bold text-muted">Số lượng người:</span>
+            <span class="text-dark">@Model.SoLuongNguoi người</span>
+        </div>
+    </div>
+</div>
+
+    <!-- Carousel hiển thị hình ảnh lớn -->
+    <div id="carouselTourImages" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @if (Model.TourImages != null && Model.TourImages.Any())
+            {
+                int index = 0;
+                @foreach (var img in Model.TourImages)
+                {
+                    <div class="carousel-item @(index == 0 ? "active" : "")">
+                        <img src="/@img.HinhAnh" class="d-block w-100 rounded shadow" alt="@Model.Ten" style="height: 400px; object-fit: cover;">
+                    </div>
+                    index++;
+                }
+            }
+            else
+            {
+                <div class="carousel-item active">
+                    <img src="/images/default-image.jpg" class="d-block w-100 rounded shadow" alt="Không có ảnh" style="height: 400px; object-fit: cover;">
+                </div>
+            }
+        </div>
+
+        <!-- Nút chuyển ảnh bên trái -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTourImages" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!-- Nút chuyển ảnh bên phải -->
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselTourImages" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Hình ảnh nhỏ (thumbnails) phía dưới -->
+    <div class="d-flex justify-content-center gap-3 mt-3">
+        @if (Model.TourImages != null && Model.TourImages.Any())
+        {
+            int index = 0;
+            @foreach (var img in Model.TourImages)
+            {
+                <img src="/@img.HinhAnh" 
+                     class="img-thumbnail thumb-image @(index == 0 ? "selected" : "")" 
+                     alt="@Model.Ten" 
+                     style="width: 90px; height: 90px; object-fit: cover; cursor: pointer;" 
+                     data-bs-target="#carouselTourImages" 
+                     data-bs-slide-to="@index">
+                index++;
+            }
+        }
+        else
+        {
+            <img src="/images/default-image.jpg" 
+                 class="img-thumbnail thumb-image selected" 
+                 alt="Không có ảnh" 
+                 style="width: 90px; height: 90px; object-fit: cover; cursor: pointer;">
+        }
+    </div>
+
+ <!-- Thông tin chi tiết của tour -->
+<!-- Thông tin chi tiết của tour -->
+<div class="card shadow p-4 mt-5">
+    <h5 class="text-primary fw-bold mb-3">Mô tả chi tiết</h5>
+    <p style="line-height: 1.8; text-align: justify; font-size: 1.1rem;">
+        @Html.Raw(ViewBag.MoTaDaXuLy)
+    </p>
+</div>
+
+<div class="card shadow p-4 mt-5">
+    <h5 class="text-primary fw-bold mb-3">Đánh giá từ khách hàng</h5>
+    @if (Model.DanhGias != null && Model.DanhGias.Any())
+    {
+        <div class="table-responsive">
+            <table id="myTable" class="table table-hover align-middle table-bordered">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th>Người dùng</th>
+                        <th>Ngày đánh giá</th>
+                        <th>Nội dung đánh giá</th>
+                        <th>Số sao</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var review in Model.DanhGias)
+                    {
+                        <tr>
+                            <td><i class="fa fa-user text-primary"></i> @review.Username</td>
+                            <td class="text-muted text-center">@review.NgayDanhGia</td>
+                            <td>@review.NoiDung</td>
+                            <td class="text-warning text-center">
+                                @for (int i = 0; i < review.SoSao; i++)
+                                {
+                                    <i class="fa fa-star"></i>
+                                }
+                                @for (int i = review.SoSao; i < 5; i++)
+                                {
+                                    <i class="fa fa-star-o"></i>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <p class="text-muted">Chưa có đánh giá nào cho tour này.</p>
+    }
+</div>
+
+<!-- Thư viện DataTables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+   <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    var table = new DataTable("#myTable", {
+        language: {
+            url: "/lib/vi.json"
+        },
+        paging: true,
+        searching: true,
+        ordering: true,
+        info: true,
+        pageLength: 10
+    });
+});
+
+    </script>
+
+
+    <!-- Nút điều hướng -->
+    <div class="mt-4 text-center">
+        <a href="@Url.Action("Index", "Package")" class="btn btn-secondary me-2 px-4">Quay lại danh sách</a>
+        <a href="@Url.Action("Create", "KhachHang", new { tourId = Model.MaTour })" class="btn btn-primary px-4">Đặt ngay</a>
+    </div>
+</div>
+
+<script>
+    const carousel = document.getElementById('carouselTourImages');
+    const thumbnails = document.querySelectorAll('.thumb-image');
+
+    // Đồng bộ thumbnail khi carousel chuyển slide
+    carousel.addEventListener('slid.bs.carousel', function (e) {
+        const activeIndex = e.to;
+        thumbnails.forEach(thumb => thumb.classList.remove('selected'));
+        thumbnails[activeIndex].classList.add('selected');
+    });
+</>

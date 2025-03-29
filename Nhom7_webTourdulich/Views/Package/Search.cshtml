@@ -1,0 +1,35 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.Tour>
+
+<div class="container mt-5">
+    <h2 class="text-primary text-center mb-4">Kết quả Tìm Kiếm</h2>
+
+    @if (Model.Any())
+    {
+        <div class="row g-4">
+            @foreach (var tour in Model)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/@tour.TourImages.FirstOrDefault()?.HinhAnh" class="card-img-top" alt="@tour.Ten" style="height: 200px; object-fit: cover;">
+                        
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">@tour.Ten</h5>
+                            <p class="card-text">
+                                Điểm đến: @tour.MaDiemDenNavigation.Ten<br />
+                                Giá: @tour.MaGiaTourNavigation.Gia.ToString("C")<br />
+                                Số ngày: @tour.SoNgay ngày
+                            </p>
+                            <a href="@Url.Action("Details", "Package", new { id = tour.MaTour })" class="btn btn-outline-primary">Xem Chi Tiết</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+        else
+    {
+        <p class="text-center text-muted">Không tìm thấy tour nào phù hợp với từ khóa "<strong>@ViewBag.Query</strong>".</p>
+    }
+    
+
+</div>

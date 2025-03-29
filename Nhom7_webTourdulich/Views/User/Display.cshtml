@@ -1,0 +1,31 @@
+﻿@model Nhom7_webTourdulich.Models.User
+@{
+    Layout = "_LayoutAdmin";  // Dùng layout admin nếu có, nếu không, có thể bỏ dòng này.
+}
+
+<Body>
+    <main>
+<h2>Chi tiết Người Dùng</h2>
+<a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+
+<div>
+    <h4>Tên: @Model.FullName</h4>
+    <h4>Email: @Model.Email</h4>
+    <h4>Vai trò: @Model.Role</h4>
+	<h4>Tên tài Khoản: @Model.Username</h4>
+	<h4>Ngày sinh: @Model.DateOfBirth</h4>
+	<h4>Địa chỉ: @Model.Address</h4>
+	<h4>Số điện thoại: @Model.PhoneNumber</h4>
+	<h4>Ngày tạo tài khoản: @Model.CreatedAt</h4>
+	<img src="@Model.ImageUrl" alt="Product Image" style="width: 300px; height: auto;" />
+	@if (Model.UserImages != null)
+	{
+		foreach (var imageUrl in Model.UserImages)
+		{
+			<img src="@imageUrl" alt="Product Image" style="width: 300px; height: auto;" />
+		}
+	}
+</div>
+
+</Body>
+    </main>

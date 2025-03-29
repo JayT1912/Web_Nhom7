@@ -1,0 +1,85 @@
+@model Nhom7_webTourdulich.Models.DanhGia
+
+@{
+    ViewData["Title"] = "Đánh giá Tour";
+}
+
+<h2 class="text-center text-primary mb-4 fw-bold">Đánh giá Tour: @ViewBag.TourName</h2>
+
+<form asp-action="Review" method="post" class="p-5 shadow-lg rounded bg-white border">
+    @Html.AntiForgeryToken()
+
+    <!-- Hidden field cho MaTour -->
+    <input type="hidden" name="MaTour" value="@ViewBag.MaTour" />
+
+    <!-- Hiển thị Username -->
+    <div class="mb-3 text-muted text-center">
+        <span id="Username">👤 Người dùng: <strong>@ViewBag.Username</strong></span>
+    </div>
+
+    <!-- Hệ thống đánh giá sao -->
+    <div class="mb-4">
+        <label class="form-label d-block text-center mb-2">🌟 Đánh giá của bạn</label>
+        <div id="star-rating" class="star-rating d-flex justify-content-center">
+            <input type="radio" name="SoSao" value="1" id="star1" />
+            <label for="star1" class="star">★</label>
+            <input type="radio" name="SoSao" value="2" id="star2" />
+            <label for="star2" class="star">★</label>
+            <input type="radio" name="SoSao" value="3" id="star3" />
+            <label for="star3" class="star">★</label>
+            <input type="radio" name="SoSao" value="4" id="star4" />
+            <label for="star4" class="star">★</label>
+            <input type="radio" name="SoSao" value="5" id="star5" />
+            <label for="star5" class="star">★</label>
+        </div>
+    </div>
+
+    <!-- Nội dung bình luận -->
+    <div class="mb-4">
+        <label for="NoiDung" class="form-label">💬 Bình luận của bạn</label>
+        <textarea name="NoiDung" class="form-control border-primary rounded-3" rows="4" placeholder="Hãy viết suy nghĩ của bạn..." required></textarea>
+    </div>
+
+    <!-- Nút gửi -->
+    <div class="d-grid">
+        <button type="submit" class="btn btn-success btn-lg fw-bold">🚀 Gửi đánh giá</button>
+    </div>
+</form>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa; /* Nền trang sáng */
+    }
+    .star-rating {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 10px; /* Khoảng cách giữa các sao */
+    }
+    .star {
+        font-size: 2.5rem; /* Kích thước lớn hơn */
+        color: #ccc; /* Màu sao mặc định (xám) */
+        cursor: pointer;
+        transition: transform 0.2s, color 0.2s ease-in-out; /* Hiệu ứng mượt */
+    }
+    .star:hover,
+    .star:hover ~ .star,
+    input:checked ~ label.star {
+        color: #f39c12; /* Màu vàng khi hover hoặc chọn */
+        transform: scale(1.2); /* Phóng to khi hover hoặc chọn */
+    }
+    input {
+        display: none; /* Ẩn input radio */
+    }
+    h2 {
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Tăng thẩm mỹ cho tiêu đề */
+    }
+    .btn-success {
+        background-color: #28a745; /* Màu xanh nhấn mạnh */
+        border: none;
+    }
+    .btn-success:hover {
+        background-color: #218838; /* Màu xanh đậm hơn khi hover */
+    }
+</style>

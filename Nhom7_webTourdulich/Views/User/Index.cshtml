@@ -1,0 +1,58 @@
+﻿ @model IEnumerable<Nhom7_webTourdulich.Models.User>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<body>
+    <Main>
+
+    @{
+        ViewData["Title"] = "Danh Sách Người Dùng";
+    }
+
+    <h2>@ViewData["Title"]</h2>
+
+    <div>
+        <a href="@Url.Action("Create", "User")" class="btn btn-primary">Thêm Người Dùng</a>
+    </div>
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Hình nền</th>
+                    <th>Họ và tên</th>
+                    <th>Email</th>
+                    <th>Chức vụ</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="@user.ImageUrl" alt="Avatar" width="100" height="100" class="img-thumbnail" />
+                        </td>
+                        <td>@user.FullName</td>
+                        <td>@user.Email</td>
+                        <td>@user.Role</td>
+                        <td>
+                    <form method="get" action="@Url.Action("Display", "User", new { id = user.Id })">
+                        <button type="submit" class="btn btn-info btn-sm custom-btn">Chi Tiết</button>
+                    </form>
+
+                    <form method="get" action="@Url.Action("Update", "User", new { id = user.Id })">
+                        <button type="submit" class="btn btn-warning btn-sm custom-btn">Cập Nhật</button>
+                    </form>
+
+                    <form method="post" action="@Url.Action("Delete", "User", new { id = user.Id })">
+                        <button type="submit" class="btn btn-danger btn-sm custom-btn" onclick="return confirm('Bạn có chắc chắn muốn xóa người dùng này?')">Xóa</button>
+                    </form>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </Main>
+</body>

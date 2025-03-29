@@ -1,0 +1,62 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.NhanVien>
+
+<body>
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Travel Guide</h6>
+                <h1 class="mb-5">Meet Our Guide</h1>
+            </div>
+            <div class="row g-4">
+                @foreach (var guide in Model)
+                {
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <!-- Hình ảnh hướng dẫn viên -->
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="@guide.HinhAnh" alt="@guide.Ten">
+                            </div>
+                            <!-- Liên kết mạng xã hội -->
+                            <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                                @if (!string.IsNullOrEmpty(guide.LinkFB))
+                                {
+                                    <a class="btn btn-square mx-1" href="@guide.LinkFB" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                }
+                                @if (!string.IsNullOrEmpty(guide.LinkZL))
+                                {
+                                    <a class="btn btn-square mx-1" href="@guide.LinkZL" target="_blank">
+                              <img src="/img/zalo1.png" alt="Zalo" style="width: 20px; height: 20px;" />
+                                    </a>    
+                                }
+                                @if (!string.IsNullOrEmpty(guide.LinkIG))
+                                {
+                                    <a class="btn btn-square mx-1" href="@guide.LinkIG" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                }
+                            </div>
+                            <!-- Thông tin hướng dẫn viên -->
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">@guide.Ten</h5>
+                                <small>
+                                    @if (guide.MaChucVuNavigation != null)
+                                    {
+                                        @guide.MaChucVuNavigation.TenChucVu
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Chưa có chức vụ</span>
+                                    }
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+</body>

@@ -1,0 +1,100 @@
+@model Nhom7_webTourdulich.Models.KhachHang
+@using Nhom7_webTourdulich.Models
+
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="container">
+    <div class="booking p-5">
+      <div class="row g-5 align-items-center">
+        <!-- Left Section -->
+        <div class="col-md-6 text-white">
+          <h6 class="text-white text-uppercase">Booking</h6>
+          <h1 class="text-white mb-4">Online Booking</h1>
+          <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit...</p>
+          <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Đọc Thêm</a>
+        </div>
+        <!-- Right Section -->
+        <div class="col-md-6">
+          <h1 class="text-white mb-4">Book A Tour</h1>
+          <form asp-controller="KhachHang" asp-action="Create" method="post" enctype="multipart/form-data">
+            <div class="row g-3">
+              <!-- Your Name -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control bg-transparent" asp-for="Ten" placeholder="Tên của bạn" required>
+                  <label for="Ten">Tên của bạn</label>
+                </div>
+              </div>
+              <!-- Your Email -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="email" class="form-control bg-transparent" asp-for="Email" placeholder="Email của bạn" required>
+                  <label for="Email">Email của bạn</label>
+                </div>
+              </div>
+              <!-- Address -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control bg-transparent" asp-for="DiaChi" placeholder="Địa chỉ của bạn" required>
+                  <label for="DiaChi">Địa chỉ của bạn</label>
+                </div>
+              </div>
+              <!-- Phone Number -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control bg-transparent" asp-for="Sdt" placeholder="Số điện thoại của bạn" required>
+                  <label for="Sdt">Số điện thoại của bạn</label>
+                </div>
+              </div>
+              <!-- Nationality -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="text" class="form-control bg-transparent" asp-for="QuocTich" placeholder="Quốc tịch của bạn" required>
+                  <label for="QuocTich">Quốc tịch của bạn</label>
+                </div>
+              </div>
+              <!-- Gender -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <select class="form-select bg-transparent" asp-for="GioiTinh" required>
+                    <option value="">Chọn Giới tính</option>
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                    <option value="Khác">Khác</option>
+                  </select>
+                  <label for="GioiTinh">Giới tính</label>
+                </div>
+              </div>
+              <!-- Image Upload -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input type="file" class="form-control bg-transparent" asp-for="HinhAnh">
+                  <label for="HinhAnh">Hình ảnh</label>
+                </div>
+              </div>
+              <!-- Destination Dropdown -->
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <select class="form-select bg-transparent" asp-for="MaTour" required>
+                    <option value="">Chọn Tour</option>
+                    @if (ViewBag.Tours != null)
+                    {
+                      foreach (var tour in (List<Tour>)ViewBag.Tours)
+                      {
+                          <option value="@tour.MaTour">@tour.Ten</option>
+                      }
+                    }
+                  </select>
+                  <label for="MaTour">Điểm Đến</label>
+                </div>
+              </div>
+              <!-- Submit Button -->
+              <div class="col-12">
+                <button class="btn btn-outline-light w-100 py-3" type="submit">Đặt Ngay</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

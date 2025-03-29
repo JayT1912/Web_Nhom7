@@ -1,0 +1,116 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.DanhGia>
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tất Cả Đánh Giá</title>
+
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+        .table-responsive {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+        }
+        .table {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4 text-center text-primary fw-bold">Tất cả đánh giá</h2>
+        <div class="table-responsive">
+            <table id="myTable" class="table table-hover align-middle table-bordered">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th>Tour</th>
+                        <th>Người dùng</th>
+                        <th>Nội dung đánh giá</th>
+                        <th>Số sao</th>
+                        <th>Ngày đánh giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.Any())
+                    {
+                        @foreach (var danhGia in Model)
+                        {
+                            <tr>
+                                <td>@danhGia.Tour?.Ten</td>
+                                <td>@danhGia.Username</td>
+                                <td>@danhGia.NoiDung</td>
+                               <td class="text-warning text-center">
+                                @for (int i = 0; i < danhGia.SoSao; i++)
+                                {
+                                    <i class="fa fa-star"></i>
+                                }
+                                @for (int i = danhGia.SoSao; i < 5; i++)
+                                {
+                                    <i class="fa fa-star-o"></i>
+                                }
+                            </td>
+                                <td>@danhGia.NgayDanhGia</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center">Không có đánh giá nào.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Khởi tạo DataTables -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    var table = new DataTable("#myTable", {
+        language: {`
+            url: "/lib/vi.json"
+        },
+        paging: true,
+        searching: true,
+        ordering: true,
+        info: true,
+        pageLength: 10
+    });
+});
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- DataTables JS -->
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+
+</body>
+</html>

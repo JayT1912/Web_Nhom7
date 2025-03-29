@@ -1,0 +1,138 @@
+/* Cài đặt chung cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Màu nền sáng */
+}
+
+/* Định dạng cho phần header */
+header {
+    background-color: #1d3c6a; /* Màu nền xanh dương */
+    color: #fff; /* Màu chữ trắng */
+    padding: 15px 20px;
+    text-align: center;
+}
+/* Định dạng cho thanh điều hướng */
+nav {
+    width: 200px;
+    height: 100vh; /* Chiều cao full màn hình */
+    background-color: #1d3c6a; /* Màu nền xanh dương */
+    position: fixed; /* Gắn thanh điều hướng cố định */
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; /* Sắp xếp các mục theo chiều dọc */
+    justify-content: space-between; /* Đặt khoảng cách đều giữa các phần tử */
+}
+
+/* Định dạng cho các liên kết trong thanh điều hướng */
+nav a {
+    display: inline; /* Đảm bảo chỉ có chữ có thể nhấp */
+    color: #ecf0f1; /* Màu chữ sáng */
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: transparent; /* Không có màu nền */
+}
+
+nav a:hover {
+    color: #3498db; /* Chỉ thay đổi màu chữ khi hover */
+    background-color: transparent; /* Giữ màu nền trong suốt khi hover */
+}
+
+
+/* Đưa "Đăng Xuất" xuống dưới cùng trong thanh điều hướng */
+nav .logout {
+    margin-top: auto; /* Đưa phần tử này xuống cuối */
+    padding-bottom: 20px; /* Khoảng cách dưới */
+}
+
+.custom-btn {
+    border-radius: 12px; /* Bo tròn góc */
+    padding: 10px 20px; /* Thêm khoảng cách xung quanh chữ */
+    font-size: 16px; /* Kích thước chữ */
+    transition: all 0.3s ease-in-out; /* Hiệu ứng chuyển động mượt mà khi hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ cho nút */
+}
+
+.custom-btn:hover {
+    transform: translateY(-3px); /* Nâng nút lên khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Tăng bóng đổ khi hover */
+}
+
+.custom-btn:focus {
+    outline: none; /* Loại bỏ viền focus mặc định */
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.8); /* Thêm viền sáng khi focus */
+}
+
+.custom-btn:active {
+    transform: translateY(1px); /* Nút dìm xuống khi nhấn */
+}
+
+/* Các màu sắc của các nút */
+.btn-info.custom-btn {
+    background-color: #17a2b8; /* Màu xanh dương */
+    border: none;
+    color: white;
+}
+
+.btn-warning.custom-btn {
+    background-color: #ffc107; /* Màu vàng */
+    border: none;
+    color: white;
+}
+
+.btn-danger.custom-btn {
+    background-color: #dc3545; /* Màu đỏ */
+    border: none;
+    color: white;
+}
+
+
+td img {
+    display: block; /* Đảm bảo ảnh là phần tử block */
+    margin-left: auto; /* Căn giữa theo chiều ngang */
+    margin-right: auto; /* Căn giữa theo chiều ngang */
+    max-width: 100%; /* Đảm bảo ảnh không bị quá rộng */
+    height: auto; /* Tự động điều chỉnh chiều cao để giữ tỷ lệ */
+}
+
+
+/* Định dạng cho phần nội dung chính (main) */
+main {
+    margin-left: 220px; /* Khoảng cách từ bên trái */
+    padding: 20px;
+}
+
+/* Định dạng cho thẻ card */
+.card {
+    background-color: #fff; /* Màu nền trắng */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px; /* Bo góc */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng cho các thẻ */
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Đảm bảo không có khoảng cách giữa các ô */
+    margin-top: 20px; /* Khoảng cách trên bảng */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Đường viền cho bảng */
+}
+
+th, td {
+    padding: 10px; /* Khoảng cách trong các ô */
+    text-align: left; /* Căn lề trái */
+}
+
+th {
+    background-color: #3498db; /* Màu nền của tiêu đề bảng */
+    color: white; /* Màu chữ của tiêu đề bảng */
+}

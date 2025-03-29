@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Quản Trị</title>
+    <link rel="stylesheet" href="~/css/Admin.css">
+
+    <header>
+        <h1>Trang Quản Trị Hệ Thống</h1>
+    </header>
+    <nav>
+        <a href="@Url.Action("Index", "Admin")" class="dropdown-item">Trang Chủ</a>
+        <a href="@Url.Action("Index", "User")" class="dropdown-item">Quản lý tài khoản</a>
+        <a href="@Url.Action("Index", "Tour")" class="dropdown-item">Quản lý tour</a>
+        <a href="#">Thống Kê</a>
+        <a href="#">Cài Đặt</a>
+        <a class="txt1 logout" href="#">Đăng Xuất</a>
+    </nav>
+</head>
+    @RenderBody()
+    @RenderSection("Scripts", required: false)
+</html>
