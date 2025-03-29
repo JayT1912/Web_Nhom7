@@ -7,8 +7,8 @@ namespace Nhom7_webTourdulich.Models;
 
 public partial class DiemDen
 {
-     [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int MaDiemDen { get; set; } 
 
     public string Ten { get; set; } = null!;

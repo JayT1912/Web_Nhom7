@@ -1,0 +1,78 @@
+@model Nhom7_webTourdulich.Models.Tour
+
+@{
+    ViewData["Title"] = "Create Tour";
+    Layout = "_LayoutAdmin"; 
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Tour</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/main.js"></script>
+</head>
+<body>
+<main>
+    <h1>Create New Tour</h1>
+
+    <h4>Tour</h4>
+    <hr/>
+
+    <!-- Thêm enctype="multipart/form-data" vào form để hỗ trợ tải file -->
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="Ten" class="control-label"></label>
+            <input asp-for="Ten" class="form-control" />
+            <span asp-validation-for="Ten" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MaLoaiTour" class="control-label"></label>
+            <select asp-for="MaLoaiTour" class="form-control" asp-items="ViewBag.MaLoaiTour"></select>
+            <span asp-validation-for="MaLoaiTour" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MaGiaTour" class="control-label"></label>
+            <select asp-for="MaGiaTour" class="form-control" asp-items="ViewBag.MaGiaTour"></select>
+            <span asp-validation-for="MaGiaTour" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MaDiemDen" class="control-label"></label>
+            <select asp-for="MaDiemDen" class="form-control" asp-items="ViewBag.MaDiemDen"></select>
+            <span asp-validation-for="MaDiemDen" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SoNgay" class="control-label"></label>
+            <input asp-for="SoNgay" class="form-control" />
+            <span asp-validation-for="SoNgay" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SoLuongNguoi" class="control-label"></label>
+            <input asp-for="SoLuongNguoi" class="form-control" />
+            <span asp-validation-for="SoLuongNguoi" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="MoTa" class="control-label"></label>
+            <textarea asp-for="MoTa" class="form-control"></textarea>
+            <span asp-validation-for="MoTa" class="text-danger"></span>
+        </div>
+
+        <!-- Thêm trường tải hình ảnh -->
+        <div class="form-group">
+            <label for="image">Chọn hình ảnh:</label>
+            <input type="file" id="image" name="avatar" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+
+    <a href="@Url.Action("Index", "Tour")" class="btn btn-secondary">Back to List</a>
+</main>
+</body>

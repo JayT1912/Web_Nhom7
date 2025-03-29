@@ -8,13 +8,8 @@ using Nhom7_webTourdulich.Repositories;
 using Microsoft.AspNetCore.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
-        options.JsonSerializerOptions.DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
-    });
-// Register IUserRepository with EFUserRepository
+
+builder.Services.AddScoped<ITourRepository, EFTourRepository>();
 builder.Services.AddScoped<IUserRepository, EFUserRepository>();
 builder.Services.AddSession(options =>
 {
@@ -61,6 +56,18 @@ builder.Services.AddAuthorization(options =>
 // Register MVC services
 builder.Services.AddControllersWithViews();
 
+
+
+// Thêm Authorization Policy cho quyền Admin và Manager
+builder.Services.AddAuthorization(options =>
+{
+    // Thêm chính sách phân quyền mới cho quyền Admin và Manager
+    options.AddPolicy("AdminOnly", policy =>
+        policy.RequireRole("Admin"));  // Chỉ cho phép người dùng có role = "Admin" truy cập
+    options.AddPolicy("AdminOrManagePolicy", policy =>
+        policy.RequireRole("Admin", "Manager"));  // Cho phép Admin và Manager truy cập
+});
+
 // Register email sender service for email functionalities
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
@@ -74,6 +81,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();  // HTTP Strict Transport Security for production
 }
 
+
 app.UseHttpsRedirection();  // Redirect HTTP to HTTPS
 app.UseStaticFiles();  // Serve static files (CSS, JS, images, etc.)
 
@@ -82,6 +90,8 @@ app.UseRouting();
 app.UseAuthentication();  // Ensure authentication is called before authorization
 app.UseAuthorization();   // Use authorization middleware
 app.UseSession();         // Enable session management
+
+
 
 // Configure default route for MVC controllers
 app.MapControllerRoute(

@@ -20,3 +20,5 @@ public partial class GiaTour
 
     public virtual ICollection<Tour> Tours { get; set; } = new List<Tour>();
 }
+    public virtual ICollection<Tour>? Tours { get; set; } = new List<Tour>();
+}

@@ -32,7 +32,7 @@ namespace Nhom7_webTourdulich.Controllers
         }
 
         // Action Index: Hiển thị danh sách các tour
-     public IActionResult Index(string query, int page = 1, int pageSize = 8)
+     public IActionResult Index(string query, int page = 1, int pageSize = 12)
 {
     // Truy vấn dữ liệu từ cơ sở dữ liệu
     var tours = _quanLyTour.Tours
@@ -46,7 +46,7 @@ namespace Nhom7_webTourdulich.Controllers
     if (!string.IsNullOrEmpty(query))
     {
         tours = tours.Where(t => EF.Functions.Like(t.Ten, $"%{query}%") ||
-                                 EF.Functions.Like(t.MaDiemDenNavigation.ThanhPho, $"%{query}%"));
+                                 EF.Functions.Like(t.MaDiemDenNavigation.Ten, $"%{query}%"));
     }
 
     // Tổng số tour
@@ -181,7 +181,5 @@ namespace Nhom7_webTourdulich.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-        
     }
-    
 }
