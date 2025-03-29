@@ -19,5 +19,5 @@ public partial class NhanVien
     public string? LinkZL { get; set; }
     public string? LinkIG { get; set; }
 
-    public virtual ChucVu? MaChucVuNavigation { get; set; } = null!;
+    public virtual ChucVu MaChucVuNavigation { get; set; } = null!;
 }

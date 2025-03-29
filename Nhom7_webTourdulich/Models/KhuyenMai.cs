@@ -22,5 +22,5 @@ public partial class KhuyenMai
 
     public DateOnly NgayKetThuc { get; set; }
 
-    public virtual GiaTour? MaGiaTourNavigation { get; set; } = null!;
+    public virtual GiaTour MaGiaTourNavigation { get; set; } = null!;
 }

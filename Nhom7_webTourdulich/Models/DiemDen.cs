@@ -15,5 +15,5 @@ public partial class DiemDen
 
     public string ThanhPho { get; set; } = null!;
 
-    public virtual ICollection<Tour>? Tours { get; set; } = new List<Tour>();
+    public virtual ICollection<Tour> Tours { get; set; } = new List<Tour>();
 }
