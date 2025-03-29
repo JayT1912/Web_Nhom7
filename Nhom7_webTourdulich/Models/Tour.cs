@@ -24,23 +24,23 @@ namespace Nhom7_webTourdulich.Models
         public string? ImageUrl { get; set; }
 
          // Quan hệ với DiemDen
-         public virtual DiemDen? MaDiemDenNavigation { get; set; } = null!;
+         public virtual DiemDen MaDiemDenNavigation { get; set; } = null!;
 
          // Quan hệ với GiaTour
-         public virtual GiaTour? MaGiaTourNavigation { get; set; } = null!;
+         public virtual GiaTour MaGiaTourNavigation { get; set; } = null!;
 
          // Quan hệ với LoaiTour
-         public virtual LoaiTour? MaLoaiTourNavigation { get; set; } = null!;
+         public virtual LoaiTour MaLoaiTourNavigation { get; set; } = null!;
 
          public ICollection<KhachHang>? KhachHangs { get; set; }
 
          // Quan hệ với TourImage
-         public virtual ICollection<TourImage>? TourImages { get; set; } = new List<TourImage>();
+         public virtual ICollection<TourImage> TourImages { get; set; } = new List<TourImage>();
 
          // Quan hệ với NhomTour
-         public virtual ICollection<NhomTour>? NhomTours { get; set; } = new List<NhomTour>();
+         public virtual ICollection<NhomTour> NhomTours { get; set; } = new List<NhomTour>();
 
          // THÊM MÔI LIÊN HỆ VỚI BẢNG DANHGIA
-         public virtual ICollection<DanhGia>? DanhGias { get; set; } = new List<DanhGia>();
+         public virtual ICollection<DanhGia> DanhGias { get; set; } = new List<DanhGia>();
     }
 }

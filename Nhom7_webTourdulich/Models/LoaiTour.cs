@@ -12,5 +12,7 @@ public partial class LoaiTour
 
     public string TenLoaiTour { get; set; } = null!;
 
+    public virtual ICollection<Tour> Tours { get; set; } = new List<Tour>();
+}
     public virtual ICollection<Tour>? Tours { get; set; } = new List<Tour>();
 }
