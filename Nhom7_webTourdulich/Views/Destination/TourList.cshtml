@@ -1,0 +1,148 @@
+@model IEnumerable<Nhom7_webTourdulich.Models.Tour>
+@using Microsoft.AspNetCore.Html
+@using Microsoft.AspNetCore.Html
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Tour</title>
+    <link rel="stylesheet" href="~/css/style.css"> <!-- External Stylesheet -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="~/js/main.js"></script>
+</head>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+            <h6 class="section-title bg-white text-primary px-3">Danh Sách Tour</h6>
+            <h1 class="mb-3">Khám Phá Những Điểm Đến Tuyệt Vời</h1>
+            @if (!string.IsNullOrEmpty(ViewBag.DestinationCity))
+            {
+                <p class="text-muted">Các tour tại điểm đến: "<strong>@ViewBag.DestinationCity</strong>"</p>
+            }
+        </div>
+
+        <!-- Tour List Grid -->
+        <div class="row g-4">
+            @if (Model.Any())
+            {
+                @foreach (var tour in Model)
+                {
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card h-100 shadow-sm border-0">
+                            <!-- Tour Image -->
+                            <img src="@tour.TourImages.FirstOrDefault()?.HinhAnh ?? '/images/default-tour.jpg'" 
+                                 alt="@tour.Ten" 
+                                 class="card-img-top rounded-top"
+                                 style="height: 200px; object-fit: cover;">
+
+                            <!-- Card Body -->
+                            <div class="card-body text-center">
+                                <!-- Title -->
+                                <h5 class="card-title text-primary mb-1">@tour.Ten</h5>
+                                <!-- Price -->
+                                <h6 class="text-success mb-2">@tour.MaGiaTourNavigation.Gia.ToString("C")</h6>
+                                <!-- Rating -->
+                                <p class="text-warning small mb-2">
+                                    @if (tour.DanhGias != null && tour.DanhGias.Any())
+                                    {
+                                        var averageRating = tour.DanhGias.Average(d => d.SoSao);
+                                        @GenerateStars(averageRating)
+                                        <span> (@averageRating.ToString("0.0"))</span>
+                                    }
+                                    else
+                                    {
+                                        <span>Chưa có đánh giá</span>
+                                    }
+                                </p>
+                                <!-- Description -->
+                                <p class="small mb-2">
+                                    @if (!string.IsNullOrEmpty(tour.MoTa) && tour.MoTa.Length > 50)
+                                    {
+                                        @string.Concat(tour.MoTa.Substring(0, 50), "...")
+                                    }
+                                    else
+                                    {
+                                        @tour.MoTa
+                                    }
+                                </p>
+                                <!-- Buttons -->
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a href="@Url.Action("Details", "Package", new { id = tour.MaTour })" 
+                                       class="btn btn-primary btn-sm px-3">Chi tiết</a>
+                                    <a href="@Url.Action("Create", "KhachHang")" 
+                                       class="btn btn-success btn-sm px-3">Đặt ngay</a>
+                                    <a href="@Url.Action("Review", "Package", new { id = tour.MaTour })" 
+                                       class="btn btn-warning btn-sm px-3">Đánh giá</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12 text-center">
+                    <p class="text-muted">Không có tour nào liên quan đến "<strong>@ViewBag.DestinationCity</strong>".</p>
+                </div>
+            }
+        </div>
+
+        <!-- Pagination -->
+        @if (ViewBag.TotalPages > 1)
+        {
+            <nav class="mt-4">
+                <ul class="pagination justify-content-center">
+                    @if (ViewBag.CurrentPage > 1)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?destinationCity=@ViewBag.DestinationCity&page=@(ViewBag.CurrentPage - 1)">Trước</a>
+                        </li>
+                    }
+                    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                    {
+                        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                            <a class="page-link" href="?destinationCity=@ViewBag.DestinationCity&page=@i">@i</a>
+                        </li>
+                    }
+                    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                    {
+                        <li class="page-item">
+                            <a class="page-link" href="?destinationCity=@ViewBag.DestinationCity&page=@(ViewBag.CurrentPage + 1)">Sau</a>
+                        </li>
+                    }
+                </ul>
+            </nav>
+        }
+    </div>
+</div>
+<style>
+    
+</style>
+@functions 
+{ 
+    public IHtmlContent GenerateStars(double rating) 
+    { 
+        // Tính số sao đầy, sao nửa và sao trống
+        int fullStars = (int)Math.Floor(rating); // Số sao đầy
+        int halfStar = (rating - fullStars) >= 0.5 ? 1 : 0; // Có sao nửa không?
+        int emptyStars = 5 - fullStars - halfStar; // Số sao trống
+
+        // Build HTML content for stars
+        var html = ""; 
+        for (int i = 0; i < fullStars; i++) 
+        { 
+            html += "<i class='fa fa-star'></i>"; // Sao đầy
+        } 
+        if (halfStar == 1) 
+        { 
+            html += "<i class='fa fa-star-half-o'></i>"; // Sao nửa
+        } 
+        for (int i = 0; i < emptyStars; i++) 
+        { 
+            html += "<i class='fa fa-star-o'></i>"; // Sao trống
+        } 
+        return new HtmlString(html); 
+    } 
+}

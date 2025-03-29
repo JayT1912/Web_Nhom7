@@ -16,9 +16,7 @@ public partial class GiaTour
 
     public DateOnly NgayKetThuc { get; set; }
 
-    public virtual ICollection<KhuyenMai> KhuyenMais { get; set; } = new List<KhuyenMai>();
+    public virtual ICollection<KhuyenMai>? KhuyenMais{ get; set; } = new List<KhuyenMai>();
 
-    public virtual ICollection<Tour> Tours { get; set; } = new List<Tour>();
-}
     public virtual ICollection<Tour>? Tours { get; set; } = new List<Tour>();
 }

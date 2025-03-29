@@ -25,67 +25,52 @@ namespace Nhom7_webTourdulich.Controllers
         {
             return View();
         }
-[HttpPost]
-[ValidateAntiForgeryToken]
-public async Task<IActionResult> Index(Login login)
-{
-    if (ModelState.IsValid)
-    {
-        // Tìm người dùng từ cơ sở dữ liệu
-        var dbLogin = await _quanLyTour.Logins
-            .FirstOrDefaultAsync(l => l.Username == login.Username);
 
-        if (dbLogin != null && dbLogin.Password == login.Password)
+        // Phương thức POST xử lý đăng nhập
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Index(Login login)
         {
-            HttpContext.Session.SetString("Username", dbLogin.Username);
-
-            // Gán vai trò dựa trên tài khoản đăng nhập
-            var role = dbLogin.Username.ToLower() switch
+            if (ModelState.IsValid)
             {
-                "admin" => "Admin",         // Nếu tên đăng nhập là admin, gán vai trò Admin
-                _ => "User"                 // Mặc định là User nếu không phải Admin hoặc Manager
-            };
+                // Kiểm tra tên đăng nhập có tồn tại không
+                var dbLogin = await _quanLyTour.Logins
+                    .FirstOrDefaultAsync(l => l.Username == login.Username);
 
-            // Tạo danh sách Claims
-            var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, dbLogin.Username),
-                new Claim(ClaimTypes.Role, role) // Gán vai trò cho người dùng
-            };
+                if (dbLogin != null && dbLogin.Password == login.Password)
+                {
+                    // Lưu thông tin người dùng vào Session
+                    HttpContext.Session.SetString("Username", dbLogin.Username);
 
-            // Tạo ClaimsIdentity và thêm vào context
-            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-            var authProperties = new AuthenticationProperties
-            {
-                IsPersistent = true  // Giữ người dùng đăng nhập
-            };
+                    // Tạo Claims cho người dùng và thực hiện đăng nhập
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, dbLogin.Username),
+                        new Claim(ClaimTypes.Role, "user") // Bạn có thể thay đổi vai trò theo yêu cầu
+                    };
 
-            // Đăng nhập người dùng và lưu thông tin trong cookie
-            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var authProperties = new AuthenticationProperties
+                    {
+                        IsPersistent = true
+                    };
 
-            // Chuyển hướng theo quyền
-            if (role == "Admin")
-            {
-                // Nếu là Admin, chuyển tới trang Admin
-                return RedirectToAction("Index", "Admin");
+                    // Đăng nhập người dùng
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), authProperties);
+
+                    // Chuyển hướng tới trang chủ sau khi đăng nhập thành công
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    // Thêm lỗi nếu tên đăng nhập hoặc mật khẩu không đúng
+                    ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng.");
+                }
             }
-            else
-            {
-                // Nếu là người dùng bình thường, chuyển tới trang Home
-                return RedirectToAction("Index", "Home");
-            }
-        }
-        else
-        {
-            // Nếu không tìm thấy tài khoản hoặc mật khẩu sai
-            ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng.");
-        }
-    }
 
-    // Nếu có lỗi, hiển thị lại trang đăng nhập
-    return View(login);
-}
-
+            // Nếu có lỗi, hiển thị lại form đăng nhập
+            return View(login);
+        }
 
         // Phương thức Logout để đăng xuất người dùng
         public async Task<IActionResult> Logout()

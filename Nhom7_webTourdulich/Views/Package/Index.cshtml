@@ -3,32 +3,35 @@
 
 <div class="container-xxl py-5">
     <div class="container">
-        <!-- Tiêu đề và từ khóa tìm kiếm -->
+        <!-- Header with query or title -->
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
             <h6 class="section-title bg-white text-center text-primary px-3">Gói Tour</h6>
-            <h1 class="mb-3">Khám Phá Thế Giới Cùng Chúng Tôi</h1>
+            <h1 class="mb-3">Khám Phá Cùng Chúng Tôi</h1>
             @if (!string.IsNullOrEmpty(ViewBag.Query))
             {
                 <p class="text-muted">Kết quả tìm kiếm cho từ khóa: "<strong>@ViewBag.Query</strong>"</p>
             }
         </div>
 
-        <!-- Danh sách Tour -->
-        <div class="row g-4 justify-content-center">
+        <!-- Tour List -->
+        <div class="row g-4">
             @if (Model.Any())
             {
                 @foreach (var tour in Model)
                 {
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="package-item shadow-sm border tour-card">
-                            <!-- Hình ảnh -->
-                            <img src="@(string.IsNullOrEmpty(tour.ImageUrl) ? "/images/default-image.jpg" : tour.ImageUrl)" class="img-fluid w-100" alt="@tour.Ten" style="height: 200px; object-fit: cover;">
-                            
-                            <!-- Nội dung -->
-                            <div class="text-center p-4">
-                                <h5 class="mb-2 text-primary">@tour.Ten</h5>
-                                <h3 class="mb-2 text-success">@tour.MaGiaTourNavigation.Gia.ToString("C")</h3>
-                                <p class="text-warning">
+                    <div class="col-lg-3 col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="package-item shadow-sm border tour-card h-100">
+                            <!-- Tour Image -->
+                            <img src="@tour.TourImages?.FirstOrDefault()?.HinhAnh " 
+                                 class="img-fluid w-100" 
+                                 alt="@tour.Ten" 
+                                 style="height: 180px; object-fit: cover;">
+
+                            <!-- Tour Details -->
+                            <div class="text-center p-3">
+                                <h5 class="mb-1 text-primary">@tour.Ten</h5>
+                                <h6 class="text-success">@tour.MaGiaTourNavigation.Gia.ToString("C")</h6>
+                                <p class="text-warning small">
                                     @if (tour.DanhGias != null && tour.DanhGias.Any())
                                     {
                                         var averageRating = tour.DanhGias.Average(d => d.SoSao);
@@ -40,7 +43,7 @@
                                         <span>Chưa có đánh giá</span>
                                     }
                                 </p>
-                                <p>
+                                <p class="small">
                                     @if (!string.IsNullOrEmpty(tour.MoTa) && tour.MoTa.Length > 50)
                                     {
                                         @string.Concat(tour.MoTa.Substring(0, 50), "...")
@@ -50,13 +53,12 @@
                                         @tour.MoTa
                                     }
                                 </p>
-                                <!-- Nút hành động -->
-                                <div class="d-flex justify-content-center">
-                                    <a href="@Url.Action("Details", "Package", new { id = tour.MaTour })" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Chi tiết</a>
-                                    <a href="@Url.Action("Create", "KhachHang")" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Đặt ngay</a>
-                                </div>
-                                <div class="mt-3 text-center">
-                                    <a href="@Url.Action("Review", "Package", new { id = tour.MaTour })" class="btn btn-outline-primary">Đánh giá ngay</a>
+                                <!-- Action Buttons -->
+                                <div class="d-flex justify-content-center gap-2">
+                                    <a href="@Url.Action("Details", "Package", new { id = tour.MaTour })" class="btn btn-primary btn-sm">Chi tiết</a>
+                                    <a href="@Url.Action("Create", "KhachHang")" class="btn btn-success btn-sm">Đặt ngay</a>
+                                                                        <a href="@Url.Action("Review", "Package", new { id = tour.MaTour })" class="btn btn-outline-primary">Đánh giá</a>
+
                                 </div>
                             </div>
                         </div>
@@ -71,95 +73,266 @@
             }
         </div>
 
-        <!-- Phân trang -->
+        <!-- Pagination -->
         <nav class="mt-4">
             <ul class="pagination justify-content-center">
-                @if (ViewBag.CurrentPage > 1)
-                {
-                    <li class="page-item">
-                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage - 1 })">Trước</a>
-                    </li>
-                }
+    <!-- Previous Button -->
+    @if (ViewBag.CurrentPage > 1)
+    {
+        <li class="page-item">
+            <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage - 1 })">Trước</a>
+        </li>
+    }
+    else
+    {
+        <li class="page-item disabled">
+            <span class="page-link btn-custom">Trước</span>
+        </li>
+    }
 
-                @for (int i = 1; i <= ViewBag.TotalPages; i++)
-                {
-                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = i })">@i</a>
-                    </li>
-                }
+    <!-- Page Numbers -->
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+            <a class="page-link btn-custom @(i == ViewBag.CurrentPage ? "active-btn" : "")" href="@Url.Action("Index", new { query = ViewBag.Query, page = i })">@i</a>
+        </li>
+    }
 
-                @if (ViewBag.CurrentPage < ViewBag.TotalPages)
-                {
-                    <li class="page-item">
-                        <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage + 1 })">Sau</a>
-                    </li>
-                }
-            </ul>
+    <!-- Next Button -->
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        <li class="page-item">
+            <a class="page-link btn-custom" href="@Url.Action("Index", new { query = ViewBag.Query, page = ViewBag.CurrentPage + 1 })">Sau</a>
+        </li>
+    }
+    else
+    {
+        <li class="page-item disabled">
+            <span class="page-link btn-custom">Sau</span>
+        </li>
+    }
+</ul>
+
         </nav>
     </div>
 </div>
-
-<!-- Tùy chỉnh CSS -->
 <style>
-    /* Ngôi sao đánh giá */
-    .fa-star, .fa-star-half-o, .fa-star-o {
-        font-size: 18px;
-        color: gold;
-        margin-right: 2px;
-    }
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
 
-    /* Hiệu ứng hover trên hình ảnh */
-    .tour-card img:hover {
-        transform: scale(1.1);
-        transition: transform 0.3s ease;
-    }
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.page-item.disabled .page-link {
+    color: #ccc;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+}
 
-    /* Hiệu ứng hover trên card */
-    .tour-card:hover {
-        transform: scale(1.05);
-        transition: transform 0.3s ease;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    }
+/* Section Title */
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+}
 
-    /* Tùy chỉnh nút phân trang */
-    .btn-custom {
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
+/* Grid Layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-    .btn-custom:hover {
-        background-color: #007bff !important;
-        color: #fff !important;
-        transform: scale(1.1);
-    }
+.col-lg-3, .col-md-4, .col-sm-6 {
+    flex: 1 1 calc(25% - 20px); /* 4 columns */
+    max-width: calc(25% - 20px);
+}
 
-    /* Trạng thái nút active */
-    .page-item.active .page-link {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
+media screen and (max-width: 768px) {
+    .col-lg-3, .col-md-4, .col-sm-6 {
+        flex: 1 1 calc(50% - 20px); /* 2 columns on smaller screens */
+        max-width: calc(50% - 20px);
     }
+}
+
+media screen and (max-width: 576px) {
+    .col-lg-3, .col-md-4, .col-sm-6 {
+        flex: 1 1 100%; /* 1 column on smallest screens */
+        max-width: 100%;
+    }
+}
+
+/* Tour Card Styling */
+.tour-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.tour-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Tour Image */
+.tour-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.tour-card img:hover {
+    transform: scale(1.05);
+    filter: brightness(90%);
+}
+
+/* Card Content */
+.tour-card .card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.tour-card h5 {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tour-card h6 {
+    font-size: 16px;
+    color: #28a745;
+    margin: 0 0 10px;
+}
+
+.tour-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Equal-Sized Buttons */
+.tour-card .btn-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.tour-card .btn {
+    flex: 1; /* Makes all buttons equal width */
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tour-card .btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+/* Pagination Styling */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    padding: 10px 15px;
+    border-radius: 50%;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
 </style>
+@functions 
+{ 
+    public IHtmlContent GenerateStars(double rating) 
+    { 
+        // Tính số sao đầy, sao nửa và sao trống
+        int fullStars = (int)Math.Floor(rating); // Số sao đầy
+        int halfStar = (rating - fullStars) >= 0.5 ? 1 : 0; // Có sao nửa không?
+        int emptyStars = 5 - fullStars - halfStar; // Số sao trống
 
-@functions {
-    public IHtmlContent GenerateStars(double rating)
-    {
-        // Tính số sao đầy, sao nửa & sao trống
-        int fullStars = (int)Math.Floor(rating);
-        int halfStar = (rating - fullStars) >= 0.5 ? 1 : 0;
-        int emptyStars = 5 - fullStars - halfStar;
-        var html = "";
-        for (int i = 0; i < fullStars; i++)
-        {
-            html += "<i class='fa fa-star'></i>";
-        }
-        if (halfStar == 1)
-        {
-            html += "<i class='fa fa-star-half-o'></i>";
-        }
-        for (int i = 0; i < emptyStars; i++)
-        {
-            html += "<i class='fa fa-star-o'></i>";
-        }
-        return new HtmlString(html);
-    }
+        // Build HTML content for stars
+        var html = ""; 
+        for (int i = 0; i < fullStars; i++) 
+        { 
+            html += "<i class='fa fa-star'></i>"; // Sao đầy
+        } 
+        if (halfStar == 1) 
+        { 
+            html += "<i class='fa fa-star-half-o'></i>"; // Sao nửa
+        } 
+        for (int i = 0; i < emptyStars; i++) 
+        { 
+            html += "<i class='fa fa-star-o'></i>"; // Sao trống
+        } 
+        return new HtmlString(html); 
+    } 
 }

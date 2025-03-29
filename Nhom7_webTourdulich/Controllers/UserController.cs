@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
-using System.Security.Claims;  // Đảm bảo rằng bạn đã thêm namespace này
 
 namespace Nhom7_webTourdulich.Controllers
 {
@@ -84,33 +83,21 @@ public async Task<IActionResult> Update(int id)
     return View(user); // Trả về view với dữ liệu người dùng
 }
 
+[Authorize(Policy = "AdminOrManagePolicy")]
 [HttpPost]
-[ValidateAntiForgeryToken]
 public async Task<IActionResult> Update(int id, User user, IFormFile avatar)
 {
     if (id != user.Id)
     {
-        return NotFound();
+        return NotFound(); // Nếu ID không khớp
     }
 
-    if (ModelState.IsValid)
+    if (ModelState.IsValid) // Kiểm tra dữ liệu hợp lệ
     {
         var existingUser = await _userRepository.GetByIdAsync(id);
         if (existingUser == null)
         {
-            return NotFound();
-        }
-
-        // Kiểm tra nếu người dùng đang nâng cấp từ User lên Manager
-        if (existingUser.Role == "User" && user.Role == "Manager")
-        {
-            existingUser.Role = "Manager"; // Cập nhật vai trò lên Manager
-        }
-
-        // Nếu người dùng đang nâng cấp từ Manager lên Admin
-        if (existingUser.Role == "Manager" && user.Role == "Admin")
-        {
-            existingUser.Role = "Admin"; // Cập nhật vai trò lên Admin
+            return NotFound(); // Nếu người dùng không tồn tại
         }
 
         // Xử lý ảnh đại diện (nếu có)
@@ -120,69 +107,62 @@ public async Task<IActionResult> Update(int id, User user, IFormFile avatar)
             var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "images", fileName);
             using (var fileStream = new FileStream(filePath, FileMode.Create))
             {
-                await avatar.CopyToAsync(fileStream);
+                await avatar.CopyToAsync(fileStream); // Lưu ảnh
             }
-            existingUser.ImageUrl = "/images/" + fileName;
+            existingUser.ImageUrl = "/images/" + fileName; // Cập nhật đường dẫn ảnh
+        }
+        else
+        {
+            // Nếu không có ảnh mới, giữ nguyên ảnh cũ
+            existingUser.ImageUrl = existingUser.ImageUrl ?? "/images/default-avatar.jpg"; // Nếu không có ảnh, sử dụng ảnh mặc định
+        }
+
+        // Xử lý mật khẩu (nếu có thay đổi)
+        if (!string.IsNullOrEmpty(user.Password))
+        {
+            existingUser.Password = user.Password; // Cập nhật mật khẩu nếu có thay đổi
+        }
+        else
+        {
+            // Nếu không thay đổi mật khẩu, giữ nguyên mật khẩu cũ
+            existingUser.Password = existingUser.Password;
         }
 
         // Cập nhật các thông tin khác của người dùng
         existingUser.FullName = user.FullName;
         existingUser.Email = user.Email;
         existingUser.Username = user.Username;
-        existingUser.DateOfBirth = user.DateOfBirth;  
-        existingUser.CreatedAt = user.CreatedAt;  
-        existingUser.Role = user.Role;  // Cập nhật vai trò
+        existingUser.DateOfBirth = user.DateOfBirth;  // Cập nhật Ngày sinh
+        existingUser.CreatedAt = user.CreatedAt;  // Cập nhật Ngày tạo tài khoản
+        existingUser.Role = user.Role;
 
-        await _userRepository.UpdateAsync(existingUser);
+        await _userRepository.UpdateAsync(existingUser); // Lưu thay đổi
         return RedirectToAction(nameof(Index)); // Chuyển hướng về trang danh sách người dùng
     }
-
-    return View(user);
+    return View(user); // Trả lại view nếu dữ liệu không hợp lệ
 }
 
 
-      // View to delete user
-[Authorize(Policy = "AdminOrManagePolicy")]
-public async Task<IActionResult> Delete(int id)
-{
-    var user = await _userRepository.GetByIdAsync(id);
-    if (user == null)
-    {
-        return NotFound();
-    }
 
-    // Kiểm tra nếu người đăng nhập là Admin và người cần xóa cũng là Admin
-    var loggedInUserRole = HttpContext.User.FindFirst(ClaimTypes.Role)?.Value;  // Lấy vai trò người đăng nhập
-    if (user.Role == "Admin" && loggedInUserRole == "Admin")
-    {
-        // Nếu người đăng nhập và người cần xóa đều là Admin
-        ModelState.AddModelError("", "Không thể xóa tài khoản Admin.");
-        return RedirectToAction(nameof(Index)); // Quay lại trang danh sách người dùng
-    }
-
-    return View(user);  // Nếu không phải là Admin, cho phép xóa
-}
-
-// Post request to delete user
-[Authorize(Policy = "AdminOrManagePolicy")]
-[HttpPost, ActionName("Delete")]
-public async Task<IActionResult> DeleteConfirmed(int id)
-{
-    var userToDelete = await _userRepository.GetByIdAsync(id);
-    var loggedInUserRole = HttpContext.User.FindFirst(ClaimTypes.Role)?.Value;  // Lấy vai trò người đăng nhập
-
-    // Kiểm tra nếu người đăng nhập là Admin và người cần xóa cũng là Admin
-    if (userToDelete.Role == "Admin" && loggedInUserRole == "Admin")
-    {
-        // Nếu người đăng nhập và người cần xóa đều là Admin
-        ModelState.AddModelError("", "Không thể xóa tài khoản Admin.");
-        return RedirectToAction(nameof(Index));  // Quay lại trang danh sách người dùng
-    }
-
-    // Nếu người cần xóa không phải là Admin, thực hiện xóa
-    await _userRepository.DeleteAsync(id);
-    return RedirectToAction(nameof(Index));  // Quay lại trang danh sách người dùng
+        // View to delete user
+        [Authorize(Policy = "AdminOrManagePolicy")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
         }
 
+        // Post request to delete user
+        [Authorize(Policy = "AdminOrManagePolicy")]
+        [HttpPost, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            await _userRepository.DeleteAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

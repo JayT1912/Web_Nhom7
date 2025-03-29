@@ -6,7 +6,7 @@ namespace Nhom7_webTourdulich.Models;
 public partial class ChiTietHoaDon
 {
     
-    public string MaHoaDon { get; set; } = null!;
+    public int MaHoaDon { get; set; }
 
     public int MaKhachHang { get; set; } 
 
@@ -16,7 +16,7 @@ public partial class ChiTietHoaDon
 
     public decimal? ThanhTien { get; set; }
 
-    public virtual HoaDon MaHoaDonNavigation { get; set; } = null!;
+    public virtual HoaDon? MaHoaDonNavigation { get; set; } = null!;
 
-    public virtual KhachHang MaKhachHangNavigation { get; set; } = null!;
+    public virtual KhachHang? MaKhachHangNavigation { get; set; } = null!;
 }

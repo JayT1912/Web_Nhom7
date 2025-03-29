@@ -12,8 +12,8 @@ using Nhom7_webTourdulich.Models;
 namespace Nhom7_webTourdulich.Migrations
 {
     [DbContext(typeof(QuanLyTourContext))]
-    [Migration("20250329084802_TaoMigration")]
-    partial class TaoMigration
+    [Migration("20250328072529_eee")]
+    partial class eee
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,10 +27,10 @@ namespace Nhom7_webTourdulich.Migrations
 
             modelBuilder.Entity("Nhom7_webTourdulich.Models.ChiTietHoaDon", b =>
                 {
-                    b.Property<string>("MaHoaDon")
+                    b.Property<int>("MaHoaDon")
                         .HasMaxLength(20)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(20)")
+                        .HasColumnType("int")
                         .HasColumnName("Ma_Hoa_Don");
 
                     b.Property<int>("MaKhachHang")
@@ -176,11 +176,14 @@ namespace Nhom7_webTourdulich.Migrations
 
             modelBuilder.Entity("Nhom7_webTourdulich.Models.HoaDon", b =>
                 {
-                    b.Property<string>("MaHoaDon")
+                    b.Property<int>("MaHoaDon")
+                        .ValueGeneratedOnAdd()
                         .HasMaxLength(20)
                         .IsUnicode(false)
-                        .HasColumnType("varchar(20)")
+                        .HasColumnType("int")
                         .HasColumnName("Ma_Hoa_Don");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaHoaDon"));
 
                     b.Property<string>("DiemDon")
                         .IsRequired()
@@ -198,7 +201,7 @@ namespace Nhom7_webTourdulich.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Ma_Khach_Hang");
 
-                    b.Property<int>("MaKhachHangNavigationMaKhachHang")
+                    b.Property<int?>("MaKhachHangNavigationMaKhachHang")
                         .HasColumnType("int");
 
                     b.Property<int>("MaNhomTour")
@@ -584,9 +587,6 @@ namespace Nhom7_webTourdulich.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MaTour"));
 
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("MaDiemDen")
                         .HasMaxLength(20)
                         .IsUnicode(false)
@@ -650,14 +650,14 @@ namespace Nhom7_webTourdulich.Migrations
                     b.Property<int>("MaTour")
                         .HasColumnType("int");
 
-                    b.Property<int>("TourMaTour")
+                    b.Property<int?>("TourMaTour")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("TourMaTour");
 
-                    b.ToTable("TourImages");
+                    b.ToTable("Tour_Images", (string)null);
                 });
 
             modelBuilder.Entity("Nhom7_webTourdulich.Models.TrangThai", b =>
@@ -762,7 +762,7 @@ namespace Nhom7_webTourdulich.Migrations
                         .WithMany("ChiTietHoaDons")
                         .HasForeignKey("MaHoaDon")
                         .IsRequired()
-                        .HasConstraintName("FK__ChiTietHo__Ma_Ho__5629CD9C");
+                        .HasConstraintName("FK__ChiTietHo__Ma_Ho__151B244E");
 
                     b.HasOne("Nhom7_webTourdulich.Models.KhachHang", "MaKhachHangNavigation")
                         .WithMany("ChiTietHoaDons")
@@ -790,9 +790,7 @@ namespace Nhom7_webTourdulich.Migrations
                 {
                     b.HasOne("Nhom7_webTourdulich.Models.KhachHang", "MaKhachHangNavigation")
                         .WithMany("HoaDons")
-                        .HasForeignKey("MaKhachHangNavigationMaKhachHang")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("MaKhachHangNavigationMaKhachHang");
 
                     b.HasOne("Nhom7_webTourdulich.Models.NhomTour", "MaNhomTourNavigation")
                         .WithMany("HoaDons")
@@ -886,9 +884,7 @@ namespace Nhom7_webTourdulich.Migrations
                 {
                     b.HasOne("Nhom7_webTourdulich.Models.Tour", "Tour")
                         .WithMany("TourImages")
-                        .HasForeignKey("TourMaTour")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TourMaTour");
 
                     b.Navigation("Tour");
                 });

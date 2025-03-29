@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Nhom7_webTourdulich.Migrations
 {
     /// <inheritdoc />
-    public partial class TaoMigration : Migration
+    public partial class AddUserTable6666 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -210,8 +210,7 @@ namespace Nhom7_webTourdulich.Migrations
                     Ma_Diem_Den = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     So_Ngay = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     So_Luong_Nguoi = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    MoTa = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    MoTa = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -331,7 +330,7 @@ namespace Nhom7_webTourdulich.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "TourImages",
+                name: "TourImage",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -342,9 +341,9 @@ namespace Nhom7_webTourdulich.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_TourImages", x => x.Id);
+                    table.PrimaryKey("PK_TourImage", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_TourImages_Tour_TourMaTour",
+                        name: "FK_TourImage_Tour_TourMaTour",
                         column: x => x.TourMaTour,
                         principalTable: "Tour",
                         principalColumn: "Ma_Tour",
@@ -355,7 +354,8 @@ namespace Nhom7_webTourdulich.Migrations
                 name: "HoaDon",
                 columns: table => new
                 {
-                    Ma_Hoa_Don = table.Column<string>(type: "varchar(20)", unicode: false, maxLength: 20, nullable: false),
+                    Ma_Hoa_Don = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     Ma_Khach_Hang = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ma_Nhom_Tour = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ngay_Lap = table.Column<DateOnly>(type: "date", nullable: false),
@@ -386,7 +386,7 @@ namespace Nhom7_webTourdulich.Migrations
                 name: "ChiTietHoaDon",
                 columns: table => new
                 {
-                    Ma_Hoa_Don = table.Column<string>(type: "varchar(20)", unicode: false, maxLength: 20, nullable: false),
+                    Ma_Hoa_Don = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Ma_Khach_Hang = table.Column<int>(type: "int", unicode: false, maxLength: 20, nullable: false),
                     Gia_Tour = table.Column<decimal>(type: "money", nullable: false),
                     So_Luong = table.Column<int>(type: "int", nullable: false, defaultValue: 1),
@@ -469,8 +469,8 @@ namespace Nhom7_webTourdulich.Migrations
                 column: "Ma_Loai_Tour");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TourImages_TourMaTour",
-                table: "TourImages",
+                name: "IX_TourImage_TourMaTour",
+                table: "TourImage",
                 column: "TourMaTour");
 
             migrationBuilder.CreateIndex(
@@ -504,7 +504,7 @@ namespace Nhom7_webTourdulich.Migrations
                 name: "Registers");
 
             migrationBuilder.DropTable(
-                name: "TourImages");
+                name: "TourImage");
 
             migrationBuilder.DropTable(
                 name: "UserImages");
