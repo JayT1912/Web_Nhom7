@@ -14,5 +14,5 @@ public partial class TrangThai
 
     public string TenTrangThai { get; set; } = null!;
 
-    public virtual ICollection<NhomTour>? NhomTours { get; set; } = new List<NhomTour>();
+    public virtual ICollection<NhomTour> NhomTours { get; set; } = new List<NhomTour>();
 }

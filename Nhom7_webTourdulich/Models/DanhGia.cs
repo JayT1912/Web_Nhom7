@@ -22,7 +22,7 @@ namespace Nhom7_webTourdulich.Models
 
         [ForeignKey("Tour")]
         public int MaTour { get; set; }  // Mã Tour (bắt buộc)
-        public virtual Tour? Tour { get; set; } = null!;  // Liên kết với bảng Tour
+        public virtual Tour Tour { get; set; } = null!;  // Liên kết với bảng Tour
 
         [Required]
         public string Username { get; set; } = null!;  // Username từ bảng User (bắt buộc)

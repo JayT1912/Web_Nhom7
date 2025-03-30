@@ -47,9 +47,10 @@ namespace Nhom7_webTourdulich.Repositories
             }
         }
 
-        public async Task<User> GetByEmailAndPasswordAsync(string email, string password)
+        // Chỉnh sửa phương thức để truy vấn theo username và password
+        public async Task<User> GetByUsernameAndPasswordAsync(string username, string password)
         {
-            return await _context.Users.FirstOrDefaultAsync(u => u.Email == email && u.Password == password);
+            return await _context.Users.FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
         }
     }
 }
