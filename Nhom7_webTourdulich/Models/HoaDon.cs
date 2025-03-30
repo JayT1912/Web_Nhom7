@@ -1,13 +1,11 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
 
 namespace Nhom7_webTourdulich.Models;
 
 public partial class HoaDon
 {
-    
-    public int MaHoaDon { get; set; } 
+    public string MaHoaDon { get; set; } = null!;
 
     public int MaKhachHang { get; set; } 
 
@@ -22,15 +20,12 @@ public partial class HoaDon
     public DateOnly NgayDi { get; set; }
 
     public TimeOnly GioDi { get; set; }
-    
 
     public string ThanhToan { get; set; } = null!;
-    
 
-    public virtual ICollection<ChiTietHoaDon>? ChiTietHoaDons { get; set; } = new List<ChiTietHoaDon>();
+    public virtual ICollection<ChiTietHoaDon> ChiTietHoaDons { get; set; } = new List<ChiTietHoaDon>();
 
-    public virtual KhachHang? MaKhachHangNavigation { get; set; } = null!;
+    public virtual KhachHang MaKhachHangNavigation { get; set; } = null!;
 
-    public virtual NhomTour? MaNhomTourNavigation { get; set; } = null!;
-    
+    public virtual NhomTour MaNhomTourNavigation { get; set; } = null!;
 }

@@ -2,17 +2,7 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-<head>
-<link rel="stylesheet" href="~/css/style.css"> <!-- Use the correct path -->
-<script src="~/js/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="~/js/main.js"></script>
-  
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quét Mã QR</title>
-</head>
+
 <div class="container py-5">
   <div class="mb-4 p-4 border rounded bg-light shadow-sm">
     <h4 class="text-primary fw-bold mb-3 border-bottom pb-2">Thông tin chi tiết</h4>
@@ -54,7 +44,7 @@
                 @foreach (var img in Model.TourImages)
                 {
                     <div class="carousel-item @(index == 0 ? "active" : "")">
-                        <img src="@img.HinhAnh" class="d-block w-100 rounded shadow" alt="@Model.Ten" style="height: 400px; object-fit: cover;">
+                        <img src="/@img.HinhAnh" class="d-block w-100 rounded shadow" alt="@Model.Ten" style="height: 400px; object-fit: cover;">
                     </div>
                     index++;
                 }
@@ -87,7 +77,7 @@
             int index = 0;
             @foreach (var img in Model.TourImages)
             {
-                <img src="@img.HinhAnh" 
+                <img src="/@img.HinhAnh" 
                      class="img-thumbnail thumb-image @(index == 0 ? "selected" : "")" 
                      alt="@Model.Ten" 
                      style="width: 90px; height: 90px; object-fit: cover; cursor: pointer;" 
@@ -181,7 +171,6 @@
 
     <!-- Nút điều hướng -->
     <div class="mt-4 text-center">
-
         <a href="@Url.Action("Index", "Package")" class="btn btn-secondary me-2 px-4">Quay lại danh sách</a>
         <a href="@Url.Action("Create", "KhachHang", new { tourId = Model.MaTour })" class="btn btn-primary px-4">Đặt ngay</a>
     </div>

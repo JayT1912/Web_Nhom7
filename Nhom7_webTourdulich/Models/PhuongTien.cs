@@ -7,7 +7,7 @@ namespace Nhom7_webTourdulich.Models;
 public partial class PhuongTien
 {
      [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public int MaPhuongTien { get; set; }
 
     public string Ten { get; set; } = null!;

@@ -9,6 +9,6 @@ namespace Nhom7_webTourdulich.Repositories
         Task AddAsync(User user);
         Task UpdateAsync(User user);
         Task DeleteAsync(int id);
-        Task<User> GetByEmailAndPasswordAsync(string email, string password);
+        Task<User> GetByUsernameAndPasswordAsync(string username, string password);
     }
 }
