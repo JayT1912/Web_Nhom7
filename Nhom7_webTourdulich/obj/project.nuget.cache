@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LMffnIuymfQ=",
+  "dgSpecHash": "Yx8lngN+kAQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+  "projectFilePath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chith\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\chith\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

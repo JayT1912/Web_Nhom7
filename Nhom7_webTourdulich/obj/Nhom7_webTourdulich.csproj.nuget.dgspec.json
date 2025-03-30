@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj": {}
+    "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj": {
+    "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+        "projectUniqueName": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
         "projectName": "Nhom7_webTourdulich",
-        "projectPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
+        "projectPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\Nhom7_webTourdulich.csproj",
         "packagesPath": "C:\\Users\\chith\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich (1)\\Nhom7_webTourdulich\\obj\\",
+        "outputPath": "C:\\Users\\chith\\OneDrive\\Máy tính\\Web_Nhom7\\Nhom7_webTourdulich\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
